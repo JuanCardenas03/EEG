@@ -8359,6 +8359,169 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 </deviceset>
 </devicesets>
 </library>
+<library name="REF2033AIDDCT">
+<description>&lt;Low-Drift, Low-Power, Dual-Output VREF and VREF/2 Voltage Reference&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X110-5N">
+<description>&lt;b&gt;DDC (R-PDSO-G5)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.25" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.25" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.25" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.25" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0.95" dx="1.25" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="1.775" x2="2.125" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.125" y1="1.775" x2="2.125" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-1.775" x2="-2.125" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-1.775" x2="-2.125" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.275" y1="1.45" x2="0.275" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.275" y1="1.45" x2="0.275" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.275" y1="-1.45" x2="-0.275" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.275" y1="-1.45" x2="-0.275" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.875" y1="1.5" x2="-0.625" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="REF2033AIDDCT">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="VBIAS" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="EN" x="0" y="-5.08" length="middle"/>
+<pin name="VIN" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="VREF" x="30.48" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="REF2033AIDDCT" prefix="IC">
+<description>&lt;b&gt;Low-Drift, Low-Power, Dual-Output VREF and VREF/2 Voltage Reference&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/gpn/ref2033"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="REF2033AIDDCT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X110-5N">
+<connects>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VBIAS" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="4"/>
+<connect gate="G$1" pin="VREF" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Low-Drift, Low-Power, Dual-Output VREF and VREF/2 Voltage Reference" constant="no"/>
+<attribute name="HEIGHT" value="1.1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="REF2033AIDDCT" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-REF2033AIDDCT" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF2033AIDDCT?qs=7z%252BmIopC6%2FIc00c0wUqUCA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply2" urn="urn:adsk.eagle:library:372">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+Please keep in mind, that these devices are necessary for the
+automatic wiring of the supply signals.&lt;p&gt;
+The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VSS" urn="urn:adsk.eagle:symbol:27016/1" library_version="2">
+<circle x="0" y="-1.27" radius="1.27" width="0.254" layer="94"/>
+<text x="-1.905" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VSS" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26990/1" library_version="2">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VSS" urn="urn:adsk.eagle:component:27065/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VSS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" urn="urn:adsk.eagle:component:27037/1" prefix="SUPPLY" library_version="2">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="GND" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="+3V3" urn="urn:adsk.eagle:symbol:26950/1" library_version="1">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+3V3" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="+3V3" urn="urn:adsk.eagle:component:26981/1" prefix="+3V3" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="+3V3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8390,6 +8553,13 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <part name="R1_AMP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="INA_1" library="AD8226ARZ-R7" deviceset="AD8226ARZ-R7" device=""/>
 <part name="ESP32-S3" library="ESP32-S3-WROOM-1-N16R8" deviceset="ESP32-S3-WROOM-1-N16R8" device=""/>
+<part name="IC1" library="REF2033AIDDCT" deviceset="REF2033AIDDCT" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8400,9 +8570,9 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <wire x1="19.685" y1="133.35" x2="19.685" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <text x="29.845" y="170.18" size="1.778" layer="94">CAPTURA DE LA SEÑAL</text>
 <wire x1="73.025" y1="174.625" x2="73.025" y2="86.995" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="73.025" y1="86.995" x2="192.405" y2="86.995" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="192.405" y1="86.995" x2="192.405" y2="174.625" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="192.405" y1="174.625" x2="73.025" y2="174.625" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="73.025" y1="86.995" x2="245.11" y2="86.995" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="245.11" y1="86.995" x2="245.11" y2="174.625" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="245.11" y1="174.625" x2="73.025" y2="174.625" width="0.1524" layer="94" style="shortdash"/>
 <text x="138.43" y="175.895" size="1.778" layer="94">ACONDICIONAMIENTO DE LA SEÑAL</text>
 <text x="92.075" y="170.18" size="1.778" layer="94">FILTRO PASABANDA</text>
 <text x="137.795" y="170.18" size="1.778" layer="94">DRIVER DE AMPLIFICACIÓN (G=100)</text>
@@ -8410,14 +8580,19 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <wire x1="129.54" y1="168.91" x2="129.54" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="129.54" y1="99.695" x2="76.2" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="76.2" y1="99.695" x2="76.2" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="133.985" y1="168.91" x2="183.515" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="135.255" y1="168.91" x2="183.515" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="183.515" y1="168.91" x2="183.515" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="183.515" y1="99.695" x2="133.985" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="133.985" y1="99.695" x2="133.985" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="183.515" y1="99.695" x2="135.255" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="135.255" y1="99.695" x2="135.255" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <text x="96.52" y="100.965" size="1.778" layer="94">7-30 Hz, G=1</text>
 <text x="154.305" y="140.97" size="1.778" layer="94">RF/R1=10</text>
 <text x="153.67" y="108.585" size="1.778" layer="94">RF/R1=10</text>
 <wire x1="137.16" y1="139.065" x2="180.34" y2="139.065" width="0.1524" layer="94" style="dashdot"/>
+<wire x1="185.42" y1="168.91" x2="232.41" y2="168.275" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="232.41" y1="168.275" x2="232.41" y2="137.795" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="232.41" y1="137.795" x2="185.42" y2="138.43" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="185.42" y1="138.43" x2="185.42" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<text x="196.215" y="170.815" size="1.778" layer="94">Voltaje de referencia</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8499,6 +8674,28 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <instance part="ESP32-S3" gate="G$1" x="175.26" y="44.45" smashed="yes" rot="R90">
 <attribute name="NAME" x="171.45" y="50.8" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="241.3" y="45.085" size="1.778" layer="96" rot="R90" align="center-left"/>
+</instance>
+<instance part="IC1" gate="G$1" x="195.58" y="154.94" smashed="yes">
+<attribute name="NAME" x="201.295" y="163.83" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="201.295" y="161.29" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="193.675" y="160.655" smashed="yes" rot="R180">
+<attribute name="VALUE" x="195.58" y="165.354" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V1" gate="G$1" x="229.235" y="161.29" smashed="yes">
+<attribute name="VALUE" x="231.14" y="163.83" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V2" gate="G$1" x="193.675" y="144.145" smashed="yes" rot="R180">
+<attribute name="VALUE" x="191.135" y="140.97" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="GND" x="188.595" y="149.225" smashed="yes">
+<attribute name="VALUE" x="186.69" y="146.05" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="142.875" y="142.875" smashed="yes">
+<attribute name="VALUE" x="140.97" y="138.176" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="142.24" y="110.49" smashed="yes">
+<attribute name="VALUE" x="140.335" y="105.791" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8654,6 +8851,46 @@ Source: &lt;a href="https://www.espressif.com/sites/default/files/documentation/
 <wire x1="173.99" y1="130.81" x2="177.165" y2="130.81" width="0.1524" layer="91"/>
 <junction x="173.99" y="130.81"/>
 <label x="174.625" y="130.81" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VSS" class="0">
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="VSS"/>
+<pinref part="IC1" gate="G$1" pin="VBIAS"/>
+<wire x1="193.675" y1="158.115" x2="193.675" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="193.675" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1_AMP1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY3" gate="G$1" pin="VSS"/>
+<wire x1="142.875" y1="146.05" x2="142.875" y2="145.415" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R1_AMP2" gate="G$1" pin="1"/>
+<pinref part="SUPPLY4" gate="G$1" pin="VSS"/>
+<wire x1="142.24" y1="114.3" x2="142.24" y2="113.03" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="+3V3" class="0">
+<segment>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<pinref part="IC1" gate="G$1" pin="VIN"/>
+<wire x1="229.235" y1="158.75" x2="229.235" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="229.235" y1="154.94" x2="226.06" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<wire x1="193.675" y1="146.685" x2="193.675" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="193.675" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="EN"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<wire x1="188.595" y1="151.765" x2="188.595" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="GND"/>
+<wire x1="188.595" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

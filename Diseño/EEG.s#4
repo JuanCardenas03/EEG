@@ -56,6 +56,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -8117,6 +8118,38 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="ngspice-simulation" urn="urn:adsk.eagle:library:527439">
+<description>SPICE compatible library parts</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="0" urn="urn:adsk.eagle:symbol:527455/1" library_version="18">
+<description>Simulation ground symbol (spice node 0)</description>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<pin name="0" x="0" y="0" visible="off" length="point" direction="sup"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:527478/1" prefix="X_" library_version="18">
+<description>Simulation ground symbol (spice node 0)</description>
+<gates>
+<gate name="G$1" symbol="0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="SPICEGROUND" value=""/>
+<attribute name="_EXTERNAL_" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8141,6 +8174,14 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 <part name="R1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="R2_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
+<part name="AMP_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
+<part name="X_1" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="RF_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="AMP_2" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
+<part name="X_2" library="ngspice-simulation" library_urn="urn:adsk.eagle:library:527439" deviceset="GND" device=""/>
+<part name="RF_AMP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
+<part name="R1_AMP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8158,7 +8199,7 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 <text x="138.43" y="175.895" size="1.778" layer="94">ACONDICIONAMIENTO DE LA SEÑAL</text>
 <text x="92.075" y="170.18" size="1.778" layer="94">FILTRO PASABANDA</text>
 <text x="150.495" y="170.18" size="1.778" layer="94">FILTRO NOTCH</text>
-<text x="202.565" y="170.18" size="1.778" layer="94">AMPLIFICACIÓN (G=100)</text>
+<text x="193.675" y="170.18" size="1.778" layer="94">DRIVER DE AMPLIFICACIÓN (G=100)</text>
 <wire x1="76.2" y1="168.91" x2="129.54" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="129.54" y1="168.91" x2="129.54" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="129.54" y1="99.695" x2="76.2" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
@@ -8172,6 +8213,9 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 <wire x1="239.395" y1="99.695" x2="189.865" y2="99.695" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="189.865" y1="99.695" x2="189.865" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <text x="96.52" y="100.965" size="1.778" layer="94">7-30 Hz, G=1</text>
+<text x="210.185" y="140.97" size="1.778" layer="94">RF/R1=10</text>
+<text x="209.55" y="108.585" size="1.778" layer="94">RF/R1=10</text>
+<wire x1="193.04" y1="139.065" x2="236.22" y2="139.065" width="0.1524" layer="94" style="dashdot"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8231,6 +8275,32 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 <instance part="C2" gate="G$1" x="88.9" y="121.285" smashed="yes" rot="R270">
 <attribute name="NAME" x="84.709" y="123.571" size="1.778" layer="95"/>
 <attribute name="VALUE" x="84.201" y="119.761" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="AMP_1" gate="G$1" x="203.835" y="162.56" smashed="yes">
+<attribute name="NAME" x="208.915" y="166.37" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="207.01" y="153.67" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="X_1" gate="G$1" x="194.945" y="162.56" smashed="yes" rot="R270"/>
+<instance part="RF_AMP1" gate="G$1" x="215.9" y="147.955" smashed="yes">
+<attribute name="NAME" x="210.185" y="149.4536" size="1.778" layer="95"/>
+<attribute name="VALUE" x="212.09" y="144.653" size="1.778" layer="96"/>
+</instance>
+<instance part="R1_AMP1" gate="G$1" x="198.755" y="151.13" smashed="yes" rot="R90">
+<attribute name="NAME" x="197.2564" y="145.415" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="202.057" y="147.32" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AMP_2" gate="G$1" x="203.2" y="130.81" smashed="yes">
+<attribute name="NAME" x="208.28" y="134.62" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="206.375" y="121.92" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="X_2" gate="G$1" x="194.31" y="130.81" smashed="yes" rot="R270"/>
+<instance part="RF_AMP2" gate="G$1" x="215.265" y="116.205" smashed="yes">
+<attribute name="NAME" x="209.55" y="117.7036" size="1.778" layer="95"/>
+<attribute name="VALUE" x="211.455" y="112.903" size="1.778" layer="96"/>
+</instance>
+<instance part="R1_AMP2" gate="G$1" x="198.12" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="196.6214" y="113.665" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="201.422" y="115.57" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8356,6 +8426,68 @@ Source: &lt;a href="https://www.ti.com/lit/gpn/LMV321A"&gt; Datasheet &lt;/a&gt;
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="121.285" x2="92.71" y2="121.285" width="0.1524" layer="91"/>
 <junction x="92.71" y="121.285"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="AMP_1" gate="G$1" pin="OUT"/>
+<wire x1="229.235" y1="162.56" x2="230.505" y2="162.56" width="0.1524" layer="91"/>
+<label x="232.41" y="162.56" size="1.778" layer="95"/>
+<pinref part="RF_AMP1" gate="G$1" pin="2"/>
+<wire x1="230.505" y1="162.56" x2="234.95" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="147.955" x2="230.505" y2="147.955" width="0.1524" layer="91"/>
+<wire x1="230.505" y1="147.955" x2="230.505" y2="162.56" width="0.1524" layer="91"/>
+<junction x="230.505" y="162.56"/>
+</segment>
+</net>
+<net name="0" class="0">
+<segment>
+<pinref part="AMP_1" gate="G$1" pin="+IN"/>
+<pinref part="X_1" gate="G$1" pin="0"/>
+<wire x1="203.835" y1="162.56" x2="194.945" y2="162.56" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AMP_2" gate="G$1" pin="+IN"/>
+<pinref part="X_2" gate="G$1" pin="0"/>
+<wire x1="203.2" y1="130.81" x2="194.31" y2="130.81" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="RF_AMP1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="147.955" x2="202.565" y2="147.955" width="0.1524" layer="91"/>
+<wire x1="202.565" y1="147.955" x2="202.565" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="AMP_1" gate="G$1" pin="-IN"/>
+<wire x1="202.565" y1="157.48" x2="203.835" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="R1_AMP1" gate="G$1" pin="2"/>
+<wire x1="198.755" y1="156.21" x2="198.755" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="198.755" y1="157.48" x2="202.565" y2="157.48" width="0.1524" layer="91"/>
+<junction x="202.565" y="157.48"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="AMP_2" gate="G$1" pin="-IN"/>
+<wire x1="203.2" y1="125.73" x2="201.93" y2="125.73" width="0.1524" layer="91"/>
+<pinref part="R1_AMP2" gate="G$1" pin="2"/>
+<wire x1="201.93" y1="125.73" x2="198.12" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="125.73" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="RF_AMP2" gate="G$1" pin="1"/>
+<wire x1="210.185" y1="116.205" x2="201.93" y2="116.205" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="116.205" x2="201.93" y2="125.73" width="0.1524" layer="91"/>
+<junction x="201.93" y="125.73"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="RF_AMP2" gate="G$1" pin="2"/>
+<wire x1="220.345" y1="116.205" x2="229.87" y2="116.205" width="0.1524" layer="91"/>
+<wire x1="229.87" y1="116.205" x2="229.87" y2="130.81" width="0.1524" layer="91"/>
+<pinref part="AMP_2" gate="G$1" pin="OUT"/>
+<wire x1="229.87" y1="130.81" x2="228.6" y2="130.81" width="0.1524" layer="91"/>
+<wire x1="229.87" y1="130.81" x2="233.045" y2="130.81" width="0.1524" layer="91"/>
+<junction x="229.87" y="130.81"/>
+<label x="230.505" y="130.81" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
