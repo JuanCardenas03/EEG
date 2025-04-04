@@ -11427,8 +11427,9 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="S2" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
 <part name="S3" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2"/>
-<part name="R1_HP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.6k"/>
+<part name="R1_HP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="C1_HP3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11646,28 +11647,31 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="GND2" gate="1" x="-102.87" y="170.815" smashed="yes">
 <attribute name="VALUE" x="-105.41" y="168.275" size="1.778" layer="96"/>
 </instance>
-<instance part="C1_HP2" gate="G$1" x="-92.075" y="168.91" smashed="yes" rot="R180">
-<attribute name="NAME" x="-93.091" y="171.704" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-88.011" y="167.259" size="1.778" layer="96" rot="R90"/>
+<instance part="C1_HP2" gate="G$1" x="-92.075" y="172.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="-93.091" y="175.514" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-88.011" y="171.069" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="-85.725" y="180.34" smashed="yes">
 <attribute name="VALUE" x="-88.9" y="180.975" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="-113.665" y="127.635" smashed="yes" rot="R90">
-<attribute name="NAME" x="-123.825" y="127" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="-121.285" y="127" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="S2" gate="G$1" x="-113.665" y="123.19" smashed="yes" rot="R90">
+<attribute name="NAME" x="-123.825" y="122.555" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="-121.285" y="122.555" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="S3" gate="G$1" x="-33.655" y="133.0325" smashed="yes" rot="R90">
 <attribute name="NAME" x="-41.275" y="136.2075" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="-38.735" y="136.2075" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="C4" gate="G$1" x="-115.57" y="162.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="-115.951" y="164.084" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-110.871" y="164.084" size="1.778" layer="96" rot="R90"/>
-</instance>
 <instance part="R1_HP2" gate="G$1" x="-111.125" y="180.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="-112.6236" y="176.53" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-107.823" y="177.8" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C1_HP3" gate="G$1" x="-116.205" y="163.83" smashed="yes" rot="R90">
+<attribute name="NAME" x="-128.651" y="159.766" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-117.856" y="159.766" size="1.778" layer="96"/>
+</instance>
+<instance part="GND3" gate="1" x="-134.62" y="148.59" smashed="yes">
+<attribute name="VALUE" x="-137.16" y="146.05" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11855,6 +11859,13 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="-85.725" y1="177.165" x2="-85.725" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="ESP32-S3" gate="G$1" pin="3V3"/>
+<wire x1="-82.55" y1="166.37" x2="-85.725" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="-85.725" y1="166.37" x2="-85.725" y2="177.165" width="0.1524" layer="91"/>
+<pinref part="C1_HP2" gate="G$1" pin="1"/>
+<wire x1="-85.725" y1="166.37" x2="-92.075" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="-92.075" y1="166.37" x2="-92.075" y2="170.18" width="0.1524" layer="91"/>
+<junction x="-85.725" y="166.37"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11915,8 +11926,14 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="-92.075" y1="183.515" x2="-102.87" y2="183.515" width="0.1524" layer="91"/>
 <wire x1="-102.87" y1="183.515" x2="-102.87" y2="173.355" width="0.1524" layer="91"/>
 <pinref part="C1_HP2" gate="G$1" pin="2"/>
-<wire x1="-92.075" y1="173.99" x2="-92.075" y2="183.515" width="0.1524" layer="91"/>
+<wire x1="-92.075" y1="177.8" x2="-92.075" y2="183.515" width="0.1524" layer="91"/>
 <junction x="-92.075" y="183.515"/>
+</segment>
+<segment>
+<pinref part="C1_HP3" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="-118.745" y1="163.83" x2="-134.62" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="163.83" x2="-134.62" y2="151.13" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -12010,19 +12027,16 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="15.24" y1="153.035" x2="16.51" y2="153.035" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="N$15" class="0">
 <segment>
+<pinref part="S2" gate="G$1" pin="COM_2"/>
+<pinref part="C1_HP3" gate="G$1" pin="2"/>
+<wire x1="-111.125" y1="153.67" x2="-111.125" y2="163.83" width="0.1524" layer="91"/>
+<pinref part="R1_HP2" gate="G$1" pin="1"/>
+<wire x1="-111.125" y1="175.26" x2="-111.125" y2="163.83" width="0.1524" layer="91"/>
+<junction x="-111.125" y="163.83"/>
 <pinref part="ESP32-S3" gate="G$1" pin="EN"/>
-<wire x1="-82.55" y1="163.83" x2="-92.075" y2="163.83" width="0.1524" layer="91"/>
-<pinref part="C1_HP2" gate="G$1" pin="1"/>
-<wire x1="-92.075" y1="163.83" x2="-92.075" y2="166.37" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="ESP32-S3" gate="G$1" pin="3V3"/>
-<wire x1="-82.55" y1="166.37" x2="-85.725" y2="166.37" width="0.1524" layer="91"/>
-<wire x1="-85.725" y1="166.37" x2="-85.725" y2="177.165" width="0.1524" layer="91"/>
+<wire x1="-82.55" y1="163.83" x2="-111.125" y2="163.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

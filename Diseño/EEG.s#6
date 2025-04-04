@@ -11339,14 +11339,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS4-CM-V-T_R.
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
+<part name="RG" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" package3d_urn="urn:adsk.eagle:package:23556/2" value="50"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<wire x1="19.685" y1="168.91" x2="67.945" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="13.335" y1="168.91" x2="67.945" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="67.945" y1="168.91" x2="67.945" y2="133.35" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="67.945" y1="133.35" x2="19.685" y2="133.35" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="19.685" y1="133.35" x2="19.685" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="67.945" y1="133.35" x2="13.335" y2="133.35" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="13.335" y1="133.35" x2="13.335" y2="168.91" width="0.1524" layer="94" style="shortdash"/>
 <text x="29.845" y="170.18" size="1.778" layer="94">CAPTURA DE LA SEÑAL</text>
 <wire x1="73.025" y1="174.625" x2="73.66" y2="37.465" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="73.66" y1="37.465" x2="245.745" y2="37.465" width="0.1524" layer="94" style="shortdash"/>
@@ -11542,6 +11543,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS4-CM-V-T_R.
 </instance>
 <instance part="SUPPLY14" gate="G$1" x="62.865" y="150.495" smashed="yes" rot="R90">
 <attribute name="VALUE" x="67.564" y="148.59" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="RG" gate="G$1" x="21.59" y="153.035" smashed="yes">
+<attribute name="NAME" x="17.78" y="154.5336" size="1.778" layer="95"/>
+<attribute name="VALUE" x="24.765" y="151.003" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11846,6 +11851,22 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SS4-CM-V-T_R.
 <pinref part="SUPPLY13" gate="+5V" pin="+5V"/>
 <wire x1="99.06" y1="80.01" x2="100.965" y2="80.01" width="0.1524" layer="91"/>
 <wire x1="100.965" y1="80.01" x2="100.965" y2="84.455" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="RG" gate="G$1" pin="2"/>
+<pinref part="INA_1" gate="G$1" pin="RG_1"/>
+<wire x1="26.67" y1="153.035" x2="28.575" y2="153.035" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="INA_1" gate="G$1" pin="RG_2"/>
+<wire x1="28.575" y1="150.495" x2="15.24" y2="150.495" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="150.495" x2="15.24" y2="153.035" width="0.1524" layer="91"/>
+<pinref part="RG" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="153.035" x2="16.51" y2="153.035" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
