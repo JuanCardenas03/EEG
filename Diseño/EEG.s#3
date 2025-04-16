@@ -11011,16 +11011,16 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="HIGH_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
 <part name="LOW_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
-<part name="R1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.6k"/>
-<part name="C2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="C1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="R2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.2k"/>
-<part name="C1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="R1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
-<part name="R2_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="5uF"/>
+<part name="R1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="230k"/>
+<part name="C2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="R2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="230k"/>
+<part name="C1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="R1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="R2_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="AMP_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
-<part name="RF_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="RF_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="51k"/>
 <part name="R1_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="INA_1" library="AD8226ARZ-R7" deviceset="AD8226ARZ-R7" device=""/>
 <part name="IC1" library="REF2033AIDDCT" deviceset="REF2033AIDDCT" device=""/>
@@ -11076,6 +11076,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.5K"/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11097,11 +11099,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="115.57" y1="104.14" x2="62.23" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="62.23" y1="104.14" x2="62.23" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="117.475" y1="173.355" x2="169.545" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="169.545" y1="173.355" x2="168.91" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="168.91" y1="104.14" x2="116.84" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="116.84" y1="104.14" x2="117.475" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
-<text x="82.55" y="105.41" size="1.778" layer="94">7-30 Hz, G=1</text>
-<text x="140.335" y="145.415" size="1.778" layer="94">RF/R1=10</text>
+<wire x1="169.545" y1="173.355" x2="169.545" y2="141.605" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="169.545" y1="141.605" x2="117.475" y2="141.605" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="117.475" y1="141.605" x2="117.475" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
+<text x="83.185" y="105.41" size="1.778" layer="94">7-50 Hz, G=1</text>
+<text x="140.335" y="145.415" size="1.778" layer="94">RF/R1=51</text>
 <wire x1="172.72" y1="179.07" x2="224.155" y2="179.07" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="224.155" y1="179.07" x2="224.155" y2="148.59" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="224.155" y1="148.59" x2="172.72" y2="148.59" width="0.1524" layer="94" style="shortdash"/>
@@ -11245,19 +11247,19 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="SUPPLY11" gate="GND" x="199.39" y="55.88" smashed="yes">
 <attribute name="VALUE" x="197.485" y="52.705" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="G$1" x="205.105" y="126.365" smashed="yes">
-<attribute name="NAME" x="210.185" y="133.985" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="210.185" y="131.445" size="1.778" layer="96" align="center-left"/>
+<instance part="IC3" gate="G$1" x="206.375" y="126.365" smashed="yes">
+<attribute name="NAME" x="211.455" y="133.985" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="211.455" y="131.445" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="S1" gate="G$1" x="192.405" y="118.745" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.135" y="111.125" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="191.135" y="114.3" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="238.76" y="123.19" smashed="yes">
-<attribute name="VALUE" x="236.855" y="120.015" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="GND" x="240.03" y="123.19" smashed="yes">
+<attribute name="VALUE" x="238.125" y="120.015" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="201.295" y="132.08" smashed="yes">
-<attribute name="VALUE" x="198.755" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V5" gate="G$1" x="201.295" y="133.35" smashed="yes">
+<attribute name="VALUE" x="198.755" y="128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY13" gate="+5V" x="194.31" y="133.35" smashed="yes">
 <attribute name="VALUE" x="192.405" y="136.525" size="1.778" layer="96"/>
@@ -11359,6 +11361,13 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </instance>
 <instance part="SUPPLY17" gate="+5V" x="207.01" y="90.805" smashed="yes">
 <attribute name="VALUE" x="208.915" y="90.805" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="53.34" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.8414" y="31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="31.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V11" gate="G$1" x="53.34" y="23.495" smashed="yes" rot="R180">
+<attribute name="VALUE" x="49.53" y="27.305" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -11527,8 +11536,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
-<wire x1="201.295" y1="129.54" x2="201.295" y2="121.285" width="0.1524" layer="91"/>
-<wire x1="201.295" y1="121.285" x2="205.105" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="201.295" y1="130.81" x2="201.295" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="201.295" y1="121.285" x2="206.375" y2="121.285" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="INA_1" gate="G$1" pin="+VS"/>
@@ -11565,6 +11574,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="LOW_PASS_1" gate="G$1" pin="V+"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="105.41" y1="123.19" x2="107.95" y2="123.19" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<wire x1="53.34" y1="30.48" x2="53.34" y2="26.035" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11608,8 +11622,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND_TAB"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="235.585" y1="126.365" x2="238.76" y2="126.365" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="126.365" x2="238.76" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="236.855" y1="126.365" x2="240.03" y2="126.365" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="126.365" x2="240.03" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="INA_1" gate="G$1" pin="-VS"/>
@@ -11775,12 +11789,12 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="192.405" y1="123.825" x2="198.755" y2="123.825" width="0.1524" layer="91"/>
 <wire x1="198.755" y1="123.825" x2="198.755" y2="118.745" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="IN"/>
-<wire x1="198.755" y1="118.745" x2="203.2" y2="118.745" width="0.1524" layer="91"/>
+<wire x1="198.755" y1="118.745" x2="204.47" y2="118.745" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="EN"/>
-<wire x1="203.2" y1="118.745" x2="205.105" y2="118.745" width="0.1524" layer="91"/>
-<wire x1="205.105" y1="126.365" x2="203.2" y2="126.365" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="126.365" x2="203.2" y2="118.745" width="0.1524" layer="91"/>
-<junction x="203.2" y="118.745"/>
+<wire x1="204.47" y1="118.745" x2="206.375" y2="118.745" width="0.1524" layer="91"/>
+<wire x1="206.375" y1="126.365" x2="204.47" y2="126.365" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="126.365" x2="204.47" y2="118.745" width="0.1524" layer="91"/>
+<junction x="204.47" y="118.745"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11901,6 +11915,67 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="122.555" y1="76.2" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="NO_2"/>
 <wire x1="122.555" y1="61.9125" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_2" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="213.995" y1="83.82" x2="209.55" y2="83.82" width="0.1524" layer="91"/>
+<label x="207.16875" y="84.29625" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO19"/>
+<wire x1="69.215" y1="46.355" x2="65.405" y2="46.355" width="0.1524" layer="91"/>
+<label x="61.595" y="46.99" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_3" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="213.995" y1="81.28" x2="209.55" y2="81.28" width="0.1524" layer="91"/>
+<label x="207.3275" y="81.75625" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO20"/>
+<label x="61.595" y="44.45" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="40.64" x2="53.34" y2="43.815" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="43.815" x2="69.215" y2="43.815" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="RXD0"/>
+<wire x1="102.235" y1="51.435" x2="108.585" y2="51.435" width="0.1524" layer="91"/>
+<label x="107.95" y="52.07" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="TXD0"/>
+<wire x1="102.235" y1="48.895" x2="108.585" y2="48.895" width="0.1524" layer="91"/>
+<label x="107.6325" y="49.2125" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_2" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO10"/>
+<wire x1="69.215" y1="33.655" x2="62.23" y2="33.655" width="0.1524" layer="91"/>
+<label x="56.515" y="33.9725" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_3" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO11"/>
+<wire x1="69.215" y1="31.115" x2="62.23" y2="31.115" width="0.1524" layer="91"/>
+<label x="56.515" y="31.4325" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_1" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO9"/>
+<wire x1="69.215" y1="36.195" x2="62.23" y2="36.195" width="0.1524" layer="91"/>
+<label x="56.35625" y="36.5125" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

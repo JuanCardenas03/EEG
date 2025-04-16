@@ -11011,16 +11011,16 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="HIGH_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
 <part name="LOW_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
-<part name="R1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.6k"/>
-<part name="C2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="C1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="R2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="3.2k"/>
-<part name="C1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
-<part name="R1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
-<part name="R2_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="450"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="5uF"/>
+<part name="R1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="230k"/>
+<part name="C2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="C1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="R2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="230k"/>
+<part name="C1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
+<part name="R1_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="R2_LP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="AMP_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
-<part name="RF_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
+<part name="RF_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="51k"/>
 <part name="R1_AMP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1k"/>
 <part name="INA_1" library="AD8226ARZ-R7" deviceset="AD8226ARZ-R7" device=""/>
 <part name="IC1" library="REF2033AIDDCT" deviceset="REF2033AIDDCT" device=""/>
@@ -11074,6 +11074,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="GND6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11094,21 +11096,21 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="115.57" y1="173.355" x2="115.57" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="115.57" y1="104.14" x2="62.23" y2="104.14" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="62.23" y1="104.14" x2="62.23" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="119.38" y1="173.355" x2="169.545" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="169.545" y1="173.355" x2="169.545" y2="142.875" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="169.545" y1="142.875" x2="119.38" y2="142.875" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="119.38" y1="142.875" x2="119.38" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
-<text x="82.55" y="105.41" size="1.778" layer="94">7-30 Hz, G=1</text>
-<text x="140.335" y="145.415" size="1.778" layer="94">RF/R1=10</text>
+<wire x1="117.475" y1="173.355" x2="169.545" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="169.545" y1="173.355" x2="169.545" y2="141.605" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="169.545" y1="141.605" x2="117.475" y2="141.605" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="117.475" y1="141.605" x2="117.475" y2="173.355" width="0.1524" layer="94" style="shortdash"/>
+<text x="83.185" y="105.41" size="1.778" layer="94">7-50 Hz, G=1</text>
+<text x="140.335" y="145.415" size="1.778" layer="94">RF/R1=51</text>
 <wire x1="172.72" y1="179.07" x2="224.155" y2="179.07" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="224.155" y1="179.07" x2="224.155" y2="148.59" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="224.155" y1="148.59" x2="172.72" y2="148.59" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="172.72" y1="148.59" x2="172.72" y2="179.07" width="0.1524" layer="94" style="shortdash"/>
 <text x="191.135" y="179.705" size="1.778" layer="94">Voltaje de referencia</text>
-<wire x1="152.4" y1="50.8" x2="243.84" y2="50.8" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="243.84" y1="50.8" x2="243.84" y2="98.425" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="152.4" y1="46.99" x2="243.84" y2="46.99" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="243.84" y1="46.99" x2="243.84" y2="98.425" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="243.84" y1="98.425" x2="152.4" y2="98.425" width="0.1524" layer="94" style="shortdash"/>
-<wire x1="152.4" y1="98.425" x2="152.4" y2="50.8" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="152.4" y1="98.425" x2="152.4" y2="46.99" width="0.1524" layer="94" style="shortdash"/>
 <text x="193.675" y="99.695" size="1.778" layer="94">CIRCUITO DE CARGA</text>
 <wire x1="172.72" y1="143.51" x2="172.72" y2="102.87" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="172.72" y1="102.87" x2="243.84" y2="102.87" width="0.1524" layer="94" style="shortdash"/>
@@ -11165,15 +11167,15 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </instance>
 <instance part="AMP_1" gate="G$1" x="133.985" y="167.005" smashed="yes">
 <attribute name="NAME" x="139.065" y="170.815" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="137.16" y="158.115" size="1.778" layer="96" align="center-left"/>
+<attribute name="VALUE" x="134.62" y="158.115" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="RF_AMP1" gate="G$1" x="146.05" y="152.4" smashed="yes">
 <attribute name="NAME" x="140.335" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="142.24" y="149.098" size="1.778" layer="96"/>
 </instance>
-<instance part="R1_AMP1" gate="G$1" x="128.905" y="155.575" smashed="yes" rot="R90">
-<attribute name="NAME" x="127.4064" y="149.225" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="132.207" y="151.765" size="1.778" layer="96" rot="R90"/>
+<instance part="R1_AMP1" gate="G$1" x="127.635" y="155.575" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.1364" y="149.225" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="130.937" y="154.305" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="INA_1" gate="G$1" x="16.51" y="165.735" smashed="yes">
 <attribute name="NAME" x="21.59" y="169.545" size="1.778" layer="95" align="center-left"/>
@@ -11198,11 +11200,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="SUPPLY3" gate="G$1" x="129.54" y="167.005" smashed="yes" rot="R270">
 <attribute name="VALUE" x="126.365" y="168.656" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="123.19" y="161.29" smashed="yes">
-<attribute name="VALUE" x="120.65" y="158.115" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="GND" x="120.015" y="160.655" smashed="yes">
+<attribute name="VALUE" x="118.11" y="157.48" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V3" gate="G$1" x="163.195" y="158.75" smashed="yes" rot="R180">
-<attribute name="VALUE" x="160.655" y="155.575" size="1.778" layer="96"/>
+<instance part="+3V3" gate="G$1" x="161.29" y="158.75" smashed="yes" rot="R180">
+<attribute name="VALUE" x="158.75" y="156.845" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="67.31" y="150.495" smashed="yes">
 <attribute name="VALUE" x="65.405" y="145.796" size="1.778" layer="96"/>
@@ -11210,52 +11212,52 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="SUPPLY9" gate="G$1" x="69.85" y="120.015" smashed="yes">
 <attribute name="VALUE" x="66.04" y="115.316" size="1.778" layer="96"/>
 </instance>
-<instance part="IC2" gate="G$1" x="178.435" y="64.135" smashed="yes" rot="R90">
-<attribute name="NAME" x="184.785" y="88.265" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="187.325" y="68.58" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="IC2" gate="G$1" x="179.705" y="60.325" smashed="yes" rot="R90">
+<attribute name="NAME" x="186.055" y="84.455" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="188.595" y="64.77" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="LED1" gate="G$1" x="166.37" y="85.725" smashed="yes">
-<attribute name="NAME" x="169.926" y="81.153" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="172.085" y="81.153" size="1.778" layer="96" rot="R90"/>
+<instance part="LED1" gate="G$1" x="167.64" y="81.915" smashed="yes">
+<attribute name="NAME" x="171.196" y="77.343" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="173.355" y="77.343" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="155.575" y="85.725" smashed="yes">
-<attribute name="NAME" x="157.099" y="86.106" size="1.778" layer="95"/>
-<attribute name="VALUE" x="157.099" y="81.026" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="156.845" y="81.915" smashed="yes">
+<attribute name="NAME" x="158.369" y="82.296" size="1.778" layer="95"/>
+<attribute name="VALUE" x="158.369" y="77.216" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="205.74" y="73.025" smashed="yes">
-<attribute name="NAME" x="206.629" y="72.771" size="1.778" layer="95"/>
-<attribute name="VALUE" x="207.264" y="68.326" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="207.01" y="69.215" smashed="yes">
+<attribute name="NAME" x="207.899" y="68.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.534" y="64.516" size="1.778" layer="96"/>
 </instance>
-<instance part="R1" gate="G$1" x="166.37" y="71.755" smashed="yes" rot="R90">
-<attribute name="NAME" x="164.2364" y="69.215" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="169.672" y="69.215" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="167.64" y="67.945" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.5064" y="65.405" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="170.942" y="65.405" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="198.12" y="72.39" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.6214" y="70.485" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="201.422" y="70.485" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="199.39" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="197.8914" y="66.675" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="202.692" y="66.675" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="155.575" y="76.2" smashed="yes">
-<attribute name="VALUE" x="153.67" y="73.025" size="1.778" layer="96"/>
+<instance part="SUPPLY5" gate="GND" x="156.845" y="72.39" smashed="yes">
+<attribute name="VALUE" x="154.94" y="69.215" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY10" gate="GND" x="180.975" y="55.88" smashed="yes">
-<attribute name="VALUE" x="179.07" y="52.705" size="1.778" layer="96"/>
+<instance part="SUPPLY10" gate="GND" x="182.245" y="52.07" smashed="yes">
+<attribute name="VALUE" x="180.34" y="48.895" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="198.12" y="59.69" smashed="yes">
-<attribute name="VALUE" x="196.215" y="56.515" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="GND" x="199.39" y="55.88" smashed="yes">
+<attribute name="VALUE" x="197.485" y="52.705" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="G$1" x="205.105" y="126.365" smashed="yes">
-<attribute name="NAME" x="210.185" y="133.985" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="210.185" y="131.445" size="1.778" layer="96" align="center-left"/>
+<instance part="IC3" gate="G$1" x="206.375" y="126.365" smashed="yes">
+<attribute name="NAME" x="211.455" y="133.985" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="211.455" y="131.445" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="S1" gate="G$1" x="192.405" y="118.745" smashed="yes" rot="R180">
 <attribute name="NAME" x="191.135" y="111.125" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="191.135" y="114.3" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY12" gate="GND" x="238.76" y="123.19" smashed="yes">
-<attribute name="VALUE" x="236.855" y="120.015" size="1.778" layer="96"/>
+<instance part="SUPPLY12" gate="GND" x="240.03" y="123.19" smashed="yes">
+<attribute name="VALUE" x="238.125" y="120.015" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V5" gate="G$1" x="201.295" y="132.08" smashed="yes">
-<attribute name="VALUE" x="198.755" y="127" size="1.778" layer="96" rot="R90"/>
+<instance part="+3V5" gate="G$1" x="201.295" y="133.35" smashed="yes">
+<attribute name="VALUE" x="198.755" y="128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY13" gate="+5V" x="194.31" y="133.35" smashed="yes">
 <attribute name="VALUE" x="192.405" y="136.525" size="1.778" layer="96"/>
@@ -11278,46 +11280,46 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <attribute name="VALUE" x="69.85" y="10.795" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="GND2" gate="GND" x="48.895" y="78.74" smashed="yes">
-<attribute name="VALUE" x="46.355" y="76.2" size="1.778" layer="96"/>
+<attribute name="VALUE" x="49.53" y="79.375" size="1.778" layer="96"/>
 </instance>
 <instance part="C1_HP2" gate="G$1" x="59.69" y="80.645" smashed="yes" rot="R180">
 <attribute name="NAME" x="58.674" y="83.439" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="63.754" y="78.994" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="59.309" y="74.549" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V4" gate="G$1" x="64.77" y="88.265" smashed="yes">
 <attribute name="VALUE" x="61.595" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="41.11625" y="60.48375" smashed="yes" rot="R270">
-<attribute name="NAME" x="51.27625" y="61.11875" size="1.778" layer="95" rot="R270" align="center-left"/>
-<attribute name="VALUE" x="48.73625" y="61.11875" size="1.778" layer="96" rot="R270" align="center-left"/>
+<instance part="S2" gate="G$1" x="43.65625" y="60.48375" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.27625" y="60.48375" size="1.778" layer="95" rot="R270" align="center-left"/>
+<attribute name="VALUE" x="48.10125" y="60.48375" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="S3" gate="G$1" x="120.65" y="31.4325" smashed="yes" rot="R90">
-<attribute name="NAME" x="113.03" y="34.6075" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="115.57" y="34.6075" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="S3" gate="G$1" x="122.555" y="31.4325" smashed="yes" rot="R90">
+<attribute name="NAME" x="114.935" y="34.6075" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="117.475" y="34.6075" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="R1_HP2" gate="G$1" x="40.64" y="80.645" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.1414" y="76.835" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="43.942" y="78.105" size="1.778" layer="96" rot="R90"/>
+<instance part="R1_HP2" gate="G$1" x="42.545" y="80.645" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.0464" y="76.835" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="45.847" y="78.105" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1_HP3" gate="G$1" x="31.115" y="71.755" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.669" y="67.691" size="1.778" layer="95"/>
-<attribute name="VALUE" x="29.464" y="67.691" size="1.778" layer="96"/>
+<attribute name="NAME" x="28.829" y="67.691" size="1.778" layer="95"/>
+<attribute name="VALUE" x="25.019" y="72.771" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="GND" x="17.145" y="56.515" smashed="yes">
-<attribute name="VALUE" x="14.605" y="53.975" size="1.778" layer="96"/>
+<attribute name="VALUE" x="11.43" y="57.15" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="40.64" y="90.805" smashed="yes">
-<attribute name="VALUE" x="37.465" y="91.44" size="1.778" layer="96"/>
+<instance part="+3V7" gate="G$1" x="42.545" y="90.805" smashed="yes">
+<attribute name="VALUE" x="39.37" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="R1_HP3" gate="G$1" x="120.65" y="79.375" smashed="yes" rot="R90">
-<attribute name="NAME" x="119.1514" y="75.565" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="123.952" y="76.835" size="1.778" layer="96" rot="R90"/>
+<instance part="R1_HP3" gate="G$1" x="122.555" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="120.4214" y="78.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.857" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="120.65" y="89.535" smashed="yes">
-<attribute name="VALUE" x="117.475" y="90.17" size="1.778" layer="96"/>
+<instance part="+3V8" gate="G$1" x="122.555" y="91.44" smashed="yes">
+<attribute name="VALUE" x="119.38" y="92.075" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="GND" x="139.065" y="60.325" smashed="yes">
-<attribute name="VALUE" x="136.525" y="57.785" size="1.778" layer="96"/>
+<instance part="GND4" gate="GND" x="140.97" y="62.23" smashed="yes">
+<attribute name="VALUE" x="142.24" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="GND" x="111.76" y="12.7" smashed="yes">
 <attribute name="VALUE" x="109.22" y="10.16" size="1.778" layer="96"/>
@@ -11334,23 +11336,29 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="+3V10" gate="G$1" x="110.49" y="123.19" smashed="yes" rot="R270">
 <attribute name="VALUE" x="107.95" y="120.015" size="1.778" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="213.995" y="93.98" smashed="yes">
-<attribute name="NAME" x="233.045" y="101.6" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="233.045" y="99.06" size="1.778" layer="96" align="center-left"/>
+<instance part="J1" gate="G$1" x="213.995" y="86.36" smashed="yes">
+<attribute name="NAME" x="214.63" y="90.17" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="219.71" y="90.17" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="J2" gate="G$1" x="18.415" y="141.605" smashed="yes">
 <attribute name="NAME" x="20.32" y="146.05" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="41.91" y="146.05" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="SUPPLY15" gate="GND" x="238.125" y="78.105" smashed="yes">
-<attribute name="VALUE" x="236.22" y="74.93" size="1.778" layer="96"/>
+<instance part="SUPPLY15" gate="GND" x="239.395" y="74.295" smashed="yes">
+<attribute name="VALUE" x="237.49" y="71.12" size="1.778" layer="96"/>
 </instance>
 <instance part="GND6" gate="GND" x="8.89" y="137.795" smashed="yes">
 <attribute name="VALUE" x="6.35" y="135.255" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="133.985" y="72.39" smashed="yes" rot="R270">
-<attribute name="NAME" x="134.366" y="70.866" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="129.286" y="70.866" size="1.778" layer="96" rot="R270"/>
+<instance part="C4" gate="G$1" x="135.89" y="74.295" smashed="yes" rot="R270">
+<attribute name="NAME" x="136.271" y="72.771" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="136.271" y="82.296" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY16" gate="+5V" x="156.845" y="93.98" smashed="yes">
+<attribute name="VALUE" x="158.75" y="93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY17" gate="+5V" x="207.01" y="90.805" smashed="yes">
+<attribute name="VALUE" x="208.915" y="90.805" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -11429,8 +11437,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </segment>
 <segment>
 <pinref part="R1_AMP1" gate="G$1" pin="1"/>
-<wire x1="128.905" y1="150.495" x2="128.905" y2="146.685" width="0.1524" layer="91"/>
-<label x="130.81" y="146.05" size="1.778" layer="95" rot="R90"/>
+<wire x1="127.635" y1="150.495" x2="127.635" y2="146.685" width="0.1524" layer="91"/>
+<label x="129.54" y="144.145" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -11464,8 +11472,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="AMP_1" gate="G$1" pin="-IN"/>
 <wire x1="132.715" y1="161.925" x2="133.985" y2="161.925" width="0.1524" layer="91"/>
 <pinref part="R1_AMP1" gate="G$1" pin="2"/>
-<wire x1="128.905" y1="160.655" x2="128.905" y2="161.925" width="0.1524" layer="91"/>
-<wire x1="128.905" y1="161.925" x2="132.715" y2="161.925" width="0.1524" layer="91"/>
+<wire x1="127.635" y1="160.655" x2="127.635" y2="161.925" width="0.1524" layer="91"/>
+<wire x1="127.635" y1="161.925" x2="132.715" y2="161.925" width="0.1524" layer="91"/>
 <junction x="132.715" y="161.925"/>
 </segment>
 </net>
@@ -11512,15 +11520,15 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="163.195" y1="161.29" x2="163.195" y2="164.465" width="0.1524" layer="91"/>
+<wire x1="161.29" y1="161.29" x2="161.29" y2="164.465" width="0.1524" layer="91"/>
 <pinref part="AMP_1" gate="G$1" pin="V+"/>
-<wire x1="159.385" y1="164.465" x2="163.195" y2="164.465" width="0.1524" layer="91"/>
+<wire x1="159.385" y1="164.465" x2="161.29" y2="164.465" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
 <pinref part="IC3" gate="G$1" pin="OUT"/>
-<wire x1="201.295" y1="129.54" x2="201.295" y2="121.285" width="0.1524" layer="91"/>
-<wire x1="201.295" y1="121.285" x2="205.105" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="201.295" y1="130.81" x2="201.295" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="201.295" y1="121.285" x2="206.375" y2="121.285" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="INA_1" gate="G$1" pin="+VS"/>
@@ -11541,12 +11549,12 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <pinref part="R1_HP2" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="85.725" x2="40.64" y2="88.265" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="85.725" x2="42.545" y2="88.265" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <pinref part="R1_HP3" gate="G$1" pin="2"/>
-<wire x1="120.65" y1="84.455" x2="120.65" y2="86.995" width="0.1524" layer="91"/>
+<wire x1="122.555" y1="86.36" x2="122.555" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="HIGH_PASS_1" gate="G$1" pin="V+"/>
@@ -11568,38 +11576,40 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="GND" pin="GND"/>
-<wire x1="123.19" y1="163.83" x2="123.19" y2="164.465" width="0.1524" layer="91"/>
-<wire x1="123.19" y1="164.465" x2="133.985" y2="164.465" width="0.1524" layer="91"/>
+<wire x1="120.015" y1="163.195" x2="120.015" y2="164.465" width="0.1524" layer="91"/>
+<wire x1="120.015" y1="164.465" x2="133.985" y2="164.465" width="0.1524" layer="91"/>
 <pinref part="AMP_1" gate="G$1" pin="V-"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VSS"/>
-<wire x1="180.975" y1="64.135" x2="180.975" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="182.245" y1="60.325" x2="182.245" y2="54.61" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="155.575" y1="78.74" x2="155.575" y2="80.645" width="0.1524" layer="91"/>
+<wire x1="156.845" y1="74.93" x2="156.845" y2="76.835" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
-<wire x1="198.12" y1="62.23" x2="198.12" y2="65.405" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="58.42" x2="199.39" y2="61.595" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="65.405" x2="198.12" y2="67.31" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="65.405" x2="205.74" y2="67.945" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="65.405" x2="198.12" y2="65.405" width="0.1524" layer="91"/>
-<junction x="198.12" y="65.405"/>
-<wire x1="216.535" y1="72.39" x2="216.535" y2="65.405" width="0.1524" layer="91"/>
-<wire x1="216.535" y1="65.405" x2="205.74" y2="65.405" width="0.1524" layer="91"/>
-<junction x="205.74" y="65.405"/>
+<wire x1="199.39" y1="61.595" x2="199.39" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="61.595" x2="207.01" y2="64.135" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="61.595" x2="199.39" y2="61.595" width="0.1524" layer="91"/>
+<junction x="199.39" y="61.595"/>
+<junction x="207.01" y="61.595"/>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="61.595" x2="207.01" y2="61.595" width="0.1524" layer="91"/>
+<wire x1="213.995" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="76.2" x2="213.36" y2="61.595" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND_TAB"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-<wire x1="235.585" y1="126.365" x2="238.76" y2="126.365" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="126.365" x2="238.76" y2="125.73" width="0.1524" layer="91"/>
+<wire x1="236.855" y1="126.365" x2="240.03" y2="126.365" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="126.365" x2="240.03" y2="125.73" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="INA_1" gate="G$1" pin="-VS"/>
@@ -11623,11 +11633,12 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="C1_HP3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
 <wire x1="28.575" y1="71.755" x2="17.145" y2="71.755" width="0.1524" layer="91"/>
-<wire x1="17.145" y1="71.755" x2="17.145" y2="60.48375" width="0.1524" layer="91"/>
+<wire x1="17.145" y1="71.755" x2="17.145" y2="61.595" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="COM_1"/>
-<wire x1="17.145" y1="60.325" x2="17.145" y2="59.055" width="0.1524" layer="91"/>
-<wire x1="38.57625" y1="60.48375" x2="17.145" y2="60.48375" width="0.1524" layer="91"/>
-<wire x1="17.145" y1="60.48375" x2="17.145" y2="60.325" width="0.1524" layer="91"/>
+<wire x1="17.145" y1="61.595" x2="17.145" y2="59.055" width="0.1524" layer="91"/>
+<junction x="17.145" y="61.595"/>
+<wire x1="41.11625" y1="61.595" x2="17.145" y2="61.595" width="0.1524" layer="91"/>
+<wire x1="41.11625" y1="60.48375" x2="41.11625" y2="61.595" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="GND" pin="GND"/>
@@ -11685,20 +11696,20 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="MH1"/>
-<wire x1="236.855" y1="93.98" x2="238.125" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="238.125" y1="93.98" x2="238.125" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="236.855" y1="86.36" x2="239.395" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="239.395" y1="86.36" x2="239.395" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="MH2"/>
-<wire x1="238.125" y1="91.44" x2="238.125" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="238.125" y1="88.9" x2="238.125" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="238.125" y1="86.36" x2="238.125" y2="80.645" width="0.1524" layer="91"/>
-<wire x1="236.855" y1="91.44" x2="238.125" y2="91.44" width="0.1524" layer="91"/>
-<junction x="238.125" y="91.44"/>
+<wire x1="239.395" y1="83.82" x2="239.395" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="239.395" y1="81.28" x2="239.395" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="239.395" y1="78.74" x2="239.395" y2="76.835" width="0.1524" layer="91"/>
+<wire x1="236.855" y1="83.82" x2="239.395" y2="83.82" width="0.1524" layer="91"/>
+<junction x="239.395" y="83.82"/>
 <pinref part="J1" gate="G$1" pin="MH3"/>
-<wire x1="236.855" y1="88.9" x2="238.125" y2="88.9" width="0.1524" layer="91"/>
-<junction x="238.125" y="88.9"/>
+<wire x1="236.855" y1="81.28" x2="239.395" y2="81.28" width="0.1524" layer="91"/>
+<junction x="239.395" y="81.28"/>
 <pinref part="J1" gate="G$1" pin="MH4"/>
-<wire x1="236.855" y1="86.36" x2="238.125" y2="86.36" width="0.1524" layer="91"/>
-<junction x="238.125" y="86.36"/>
+<wire x1="236.855" y1="78.74" x2="239.395" y2="78.74" width="0.1524" layer="91"/>
+<junction x="239.395" y="78.74"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -11710,64 +11721,52 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="GND4" gate="GND" pin="GND"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="139.065" y1="62.865" x2="139.065" y2="66.675" width="0.1524" layer="91"/>
-<wire x1="139.065" y1="66.675" x2="139.065" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="139.065" y1="72.39" x2="136.525" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="64.77" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="68.58" x2="140.97" y2="74.295" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="74.295" x2="138.43" y2="74.295" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="COM_2"/>
-<wire x1="123.19" y1="61.9125" x2="123.19" y2="66.675" width="0.1524" layer="91"/>
-<wire x1="123.19" y1="66.675" x2="139.065" y2="66.675" width="0.1524" layer="91"/>
-<junction x="139.065" y="66.675"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="166.37" y1="88.265" x2="166.37" y2="95.885" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="166.37" y1="95.885" x2="178.435" y2="95.885" width="0.1524" layer="91"/>
-<wire x1="178.435" y1="95.885" x2="178.435" y2="92.075" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="155.575" y1="88.265" x2="155.575" y2="95.885" width="0.1524" layer="91"/>
-<wire x1="155.575" y1="95.885" x2="166.37" y2="95.885" width="0.1524" layer="91"/>
-<junction x="166.37" y="95.885"/>
+<wire x1="125.095" y1="61.9125" x2="125.095" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="125.095" y1="68.58" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
+<junction x="140.97" y="68.58"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="166.37" y1="80.645" x2="166.37" y2="76.835" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="76.835" x2="167.64" y2="73.025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="STAT"/>
-<wire x1="178.435" y1="64.135" x2="178.435" y2="62.23" width="0.1524" layer="91"/>
-<wire x1="178.435" y1="62.23" x2="166.37" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="179.705" y1="60.325" x2="179.705" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="179.705" y1="58.42" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="166.37" y1="66.675" x2="166.37" y2="62.23" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="62.865" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PROG"/>
-<wire x1="180.975" y1="92.075" x2="180.975" y2="95.885" width="0.1524" layer="91"/>
+<wire x1="182.245" y1="88.265" x2="182.245" y2="89.535" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="180.975" y1="95.885" x2="198.12" y2="95.885" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="95.885" x2="198.12" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="182.245" y1="89.535" x2="199.39" y2="89.535" width="0.1524" layer="91"/>
+<wire x1="199.39" y1="89.535" x2="199.39" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+BATT" class="0">
 <segment>
-<pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="80.01" x2="205.74" y2="75.565" width="0.1524" layer="91"/>
-<label x="206.375" y="77.47" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VBAT"/>
+<wire x1="184.785" y1="60.325" x2="184.785" y2="54.61" width="0.1524" layer="91"/>
+<wire x1="184.785" y1="54.61" x2="189.865" y2="54.61" width="0.1524" layer="91"/>
+<label x="186.055" y="55.245" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VBAT"/>
-<wire x1="183.515" y1="64.135" x2="183.515" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="183.515" y1="58.42" x2="188.595" y2="58.42" width="0.1524" layer="91"/>
-<label x="184.785" y="59.055" size="1.778" layer="95"/>
+<pinref part="S1" gate="G$1" pin="NC"/>
+<wire x1="192.405" y1="121.285" x2="195.58" y2="121.285" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="121.285" x2="195.58" y2="114.935" width="0.1524" layer="91"/>
+<label x="195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -11776,12 +11775,12 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="192.405" y1="123.825" x2="198.755" y2="123.825" width="0.1524" layer="91"/>
 <wire x1="198.755" y1="123.825" x2="198.755" y2="118.745" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="IN"/>
-<wire x1="198.755" y1="118.745" x2="203.2" y2="118.745" width="0.1524" layer="91"/>
+<wire x1="198.755" y1="118.745" x2="204.47" y2="118.745" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="EN"/>
-<wire x1="203.2" y1="118.745" x2="205.105" y2="118.745" width="0.1524" layer="91"/>
-<wire x1="205.105" y1="126.365" x2="203.2" y2="126.365" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="126.365" x2="203.2" y2="118.745" width="0.1524" layer="91"/>
-<junction x="203.2" y="118.745"/>
+<wire x1="204.47" y1="118.745" x2="206.375" y2="118.745" width="0.1524" layer="91"/>
+<wire x1="206.375" y1="126.365" x2="204.47" y2="126.365" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="126.365" x2="204.47" y2="118.745" width="0.1524" layer="91"/>
+<junction x="204.47" y="118.745"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -11790,6 +11789,29 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="SUPPLY13" gate="+5V" pin="+5V"/>
 <wire x1="192.405" y1="126.365" x2="194.31" y2="126.365" width="0.1524" layer="91"/>
 <wire x1="194.31" y1="126.365" x2="194.31" y2="130.81" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="167.64" y1="84.455" x2="167.64" y2="89.535" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+<wire x1="167.64" y1="89.535" x2="179.705" y2="89.535" width="0.1524" layer="91"/>
+<wire x1="179.705" y1="89.535" x2="179.705" y2="88.265" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="156.845" y1="84.455" x2="156.845" y2="89.535" width="0.1524" layer="91"/>
+<wire x1="156.845" y1="89.535" x2="167.64" y2="89.535" width="0.1524" layer="91"/>
+<junction x="167.64" y="89.535"/>
+<pinref part="SUPPLY16" gate="+5V" pin="+5V"/>
+<wire x1="156.845" y1="91.44" x2="156.845" y2="89.535" width="0.1524" layer="91"/>
+<junction x="156.845" y="89.535"/>
+</segment>
+<segment>
+<pinref part="SUPPLY17" gate="+5V" pin="+5V"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="207.01" y1="88.265" x2="207.01" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="207.01" y1="86.36" x2="213.995" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="207.01" y1="71.755" x2="207.01" y2="86.36" width="0.1524" layer="91"/>
+<junction x="207.01" y="86.36"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -11812,26 +11834,27 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="C1_HP3" gate="G$1" pin="2"/>
 <pinref part="ESP32-S3" gate="G$1" pin="EN"/>
-<wire x1="69.215" y1="71.755" x2="40.64" y2="71.755" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="71.755" x2="36.195" y2="71.755" width="0.1524" layer="91"/>
-<junction x="40.64" y="71.755"/>
+<wire x1="69.215" y1="71.755" x2="42.545" y2="71.755" width="0.1524" layer="91"/>
+<junction x="42.545" y="71.755"/>
 <pinref part="R1_HP2" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="71.755" x2="40.64" y2="75.565" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="71.755" x2="36.195" y2="71.755" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="71.755" x2="42.545" y2="75.565" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="66.675" x2="42.545" y2="71.755" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="NO_1"/>
-<wire x1="41.11625" y1="60.48375" x2="41.11625" y2="71.755" width="0.1524" layer="91"/>
-<wire x1="41.11625" y1="71.755" x2="40.64" y2="71.755" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="66.675" x2="43.65625" y2="66.675" width="0.1524" layer="91"/>
+<wire x1="43.65625" y1="66.675" x2="43.65625" y2="60.48375" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="O4" class="0">
 <segment>
 <pinref part="AMP_1" gate="G$1" pin="OUT"/>
-<wire x1="159.385" y1="167.005" x2="160.655" y2="167.005" width="0.1524" layer="91"/>
-<label x="162.56" y="167.005" size="1.778" layer="95"/>
+<wire x1="159.385" y1="167.005" x2="165.735" y2="167.005" width="0.1524" layer="91"/>
+<label x="165.735" y="168.275" size="1.778" layer="95"/>
 <pinref part="RF_AMP1" gate="G$1" pin="2"/>
-<wire x1="160.655" y1="167.005" x2="165.1" y2="167.005" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="152.4" x2="160.655" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="160.655" y1="152.4" x2="160.655" y2="167.005" width="0.1524" layer="91"/>
-<junction x="160.655" y="167.005"/>
+<wire x1="165.735" y1="167.005" x2="168.275" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="151.13" y1="152.4" x2="165.735" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="165.735" y1="152.4" x2="165.735" y2="167.005" width="0.1524" layer="91"/>
+<junction x="165.735" y="167.005"/>
 </segment>
 <segment>
 <pinref part="ESP32-S3" gate="G$1" pin="IO4"/>
@@ -11870,16 +11893,28 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <net name="N$13" class="0">
 <segment>
 <pinref part="ESP32-S3" gate="G$1" pin="IO0"/>
-<wire x1="102.235" y1="74.295" x2="109.22" y2="74.295" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="74.295" x2="109.22" y2="72.39" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="72.39" x2="120.65" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="120.65" y1="72.39" x2="128.905" y2="72.39" width="0.1524" layer="91"/>
-<junction x="120.65" y="72.39"/>
+<wire x1="102.235" y1="74.295" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
+<wire x1="122.555" y1="74.295" x2="130.81" y2="74.295" width="0.1524" layer="91"/>
+<junction x="122.555" y="74.295"/>
 <pinref part="R1_HP3" gate="G$1" pin="1"/>
-<wire x1="120.65" y1="74.295" x2="120.65" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="122.555" y1="76.2" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="NO_2"/>
-<wire x1="120.65" y1="61.9125" x2="120.65" y2="72.39" width="0.1524" layer="91"/>
+<wire x1="122.555" y1="61.9125" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_2" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="213.995" y1="83.82" x2="209.55" y2="83.82" width="0.1524" layer="91"/>
+<label x="207.16875" y="84.29625" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_3" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="213.995" y1="81.28" x2="209.55" y2="81.28" width="0.1524" layer="91"/>
+<label x="207.3275" y="81.75625" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
