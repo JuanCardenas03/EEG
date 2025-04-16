@@ -11076,6 +11076,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.5K"/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11360,6 +11362,13 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="SUPPLY17" gate="+5V" x="207.01" y="90.805" smashed="yes">
 <attribute name="VALUE" x="208.915" y="90.805" size="1.778" layer="96"/>
 </instance>
+<instance part="R3" gate="G$1" x="53.34" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.8414" y="31.75" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="56.642" y="31.75" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V11" gate="G$1" x="53.34" y="23.495" smashed="yes" rot="R180">
+<attribute name="VALUE" x="49.53" y="27.305" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11565,6 +11574,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="LOW_PASS_1" gate="G$1" pin="V+"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="105.41" y1="123.19" x2="107.95" y2="123.19" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<wire x1="53.34" y1="30.48" x2="53.34" y2="26.035" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11901,6 +11915,67 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="122.555" y1="76.2" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
 <pinref part="S3" gate="G$1" pin="NO_2"/>
 <wire x1="122.555" y1="61.9125" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_2" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="213.995" y1="83.82" x2="209.55" y2="83.82" width="0.1524" layer="91"/>
+<label x="207.16875" y="84.29625" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO19"/>
+<wire x1="69.215" y1="46.355" x2="65.405" y2="46.355" width="0.1524" layer="91"/>
+<label x="61.595" y="46.99" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_3" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="213.995" y1="81.28" x2="209.55" y2="81.28" width="0.1524" layer="91"/>
+<label x="207.3275" y="81.75625" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO20"/>
+<label x="61.595" y="44.45" size="1.778" layer="95"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="40.64" x2="53.34" y2="43.815" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="43.815" x2="69.215" y2="43.815" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="RXD0"/>
+<wire x1="102.235" y1="51.435" x2="108.585" y2="51.435" width="0.1524" layer="91"/>
+<label x="107.95" y="52.07" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="TXD0"/>
+<wire x1="102.235" y1="48.895" x2="108.585" y2="48.895" width="0.1524" layer="91"/>
+<label x="107.6325" y="49.2125" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_2" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO10"/>
+<wire x1="69.215" y1="33.655" x2="62.23" y2="33.655" width="0.1524" layer="91"/>
+<label x="56.515" y="33.9725" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_3" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO11"/>
+<wire x1="69.215" y1="31.115" x2="62.23" y2="31.115" width="0.1524" layer="91"/>
+<label x="56.515" y="31.4325" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TOUCHP_1" class="0">
+<segment>
+<pinref part="ESP32-S3" gate="G$1" pin="IO9"/>
+<wire x1="69.215" y1="36.195" x2="62.23" y2="36.195" width="0.1524" layer="91"/>
+<label x="56.35625" y="36.5125" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

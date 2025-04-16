@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "USB350030AKIT"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "USB350030AKIT")
+        (spec "default")
+    )
+)
