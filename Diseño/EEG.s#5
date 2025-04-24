@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -11055,8 +11055,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <part name="GND2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2_ESP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="+3V4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="S2" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
-<part name="S3" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
+<part name="RESET" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
+<part name="BOOT" library="TS18-5-17-SL-160-SMT-TR" deviceset="TS18-5-17-SL-160-SMT-TR" device=""/>
 <part name="R1_ESP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="C1_ESP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
 <part name="GND3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -11297,13 +11297,13 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <instance part="+3V4" gate="G$1" x="64.77" y="88.265" smashed="yes">
 <attribute name="VALUE" x="61.595" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="S2" gate="G$1" x="27.14625" y="61.11875" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.05125" y="59.84875" size="1.778" layer="95" rot="R270" align="center-left"/>
+<instance part="RESET" gate="G$1" x="27.14625" y="61.11875" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.47875" y="41.11625" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="31.59125" y="61.11875" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
-<instance part="S3" gate="G$1" x="122.555" y="31.4325" smashed="yes" rot="R90">
-<attribute name="NAME" x="114.935" y="34.6075" size="1.778" layer="95" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="117.475" y="34.6075" size="1.778" layer="96" rot="R90" align="center-left"/>
+<instance part="BOOT" gate="G$1" x="122.555" y="31.4325" smashed="yes" rot="R90">
+<attribute name="NAME" x="118.745" y="43.4975" size="1.778" layer="95" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="128.905" y="32.0675" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
 <instance part="R1_ESP" gate="G$1" x="27.305" y="80.645" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.8064" y="76.835" size="1.778" layer="95" rot="R90"/>
@@ -11345,8 +11345,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <attribute name="VALUE" x="107.95" y="120.015" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="213.995" y="86.36" smashed="yes">
-<attribute name="NAME" x="214.63" y="90.17" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="219.71" y="90.17" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="224.155" y="90.17" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="215.265" y="72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="J2" gate="G$1" x="18.415" y="141.605" smashed="yes">
 <attribute name="NAME" x="20.32" y="146.05" size="1.778" layer="95" align="center-left"/>
@@ -11677,7 +11677,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="GND3" gate="GND" pin="GND"/>
 <wire x1="13.97" y1="71.755" x2="3.81" y2="71.755" width="0.1524" layer="91"/>
 <wire x1="3.81" y1="71.755" x2="3.81" y2="65.405" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="COM_1"/>
+<pinref part="RESET" gate="G$1" pin="COM_1"/>
 <wire x1="3.81" y1="65.405" x2="3.81" y2="62.865" width="0.1524" layer="91"/>
 <junction x="3.81" y="65.405"/>
 <wire x1="24.60625" y1="65.405" x2="3.81" y2="65.405" width="0.1524" layer="91"/>
@@ -11767,7 +11767,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="140.97" y1="64.77" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="68.58" x2="140.97" y2="74.295" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="74.295" x2="138.43" y2="74.295" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="COM_2"/>
+<pinref part="BOOT" gate="G$1" pin="COM_2"/>
 <wire x1="125.095" y1="61.9125" x2="125.095" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="125.095" y1="68.58" x2="140.97" y2="68.58" width="0.1524" layer="91"/>
 <junction x="140.97" y="68.58"/>
@@ -11932,7 +11932,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <junction x="122.555" y="74.295"/>
 <pinref part="R4_ESP" gate="G$1" pin="1"/>
 <wire x1="122.555" y1="76.2" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="NO_2"/>
+<pinref part="BOOT" gate="G$1" pin="NO_2"/>
 <wire x1="122.555" y1="61.9125" x2="122.555" y2="74.295" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -12042,7 +12042,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="NO_1"/>
+<pinref part="RESET" gate="G$1" pin="NO_1"/>
 <wire x1="27.14625" y1="61.11875" x2="27.14625" y2="71.755" width="0.1524" layer="91"/>
 <pinref part="ESP32-S3" gate="G$1" pin="EN"/>
 <wire x1="27.14625" y1="71.755" x2="27.305" y2="71.755" width="0.1524" layer="91"/>

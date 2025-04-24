@@ -11383,8 +11383,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <attribute name="NAME" x="47.498" y="69.596" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="53.213" y="72.39" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND10" gate="GND" x="39.37" y="34.29" smashed="yes">
-<attribute name="VALUE" x="39.37" y="31.75" size="1.778" layer="96"/>
+<instance part="GND10" gate="GND" x="38.1" y="34.29" smashed="yes">
+<attribute name="VALUE" x="38.1" y="31.75" size="1.778" layer="96"/>
 </instance>
 <instance part="LED_PRO" gate="G$1" x="59.69" y="59.055" smashed="yes" rot="MR90">
 <attribute name="NAME" x="53.848" y="62.611" size="1.778" layer="95" rot="MR180"/>
@@ -11394,9 +11394,9 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <attribute name="NAME" x="54.483" y="55.626" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="55.118" y="58.42" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R2_ESP" gate="G$1" x="39.37" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.2364" y="40.64" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="42.672" y="40.64" size="1.778" layer="96" rot="R90"/>
+<instance part="R2_ESP" gate="G$1" x="38.1" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.9664" y="40.64" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="41.402" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -11775,7 +11775,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="GND10" gate="GND" pin="GND"/>
 <pinref part="R2_ESP" gate="G$1" pin="1"/>
-<wire x1="39.37" y1="36.83" x2="39.37" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="36.83" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12067,11 +12067,10 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <pinref part="LED_REP" gate="G$1" pin="C"/>
 <wire x1="38.1" y1="50.165" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="52.705" y1="52.705" x2="52.705" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="52.705" y1="48.26" x2="39.37" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="52.705" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
 <junction x="52.705" y="52.705"/>
 <pinref part="R2_ESP" gate="G$1" pin="2"/>
-<wire x1="39.37" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<junction x="39.37" y="48.26"/>
+<junction x="38.1" y="48.26"/>
 </segment>
 </net>
 </nets>

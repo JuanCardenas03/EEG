@@ -2337,7 +2337,7 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="RG" pad="2"/>
 <contactref element="INA_1" pad="2"/>
-<wire x1="10.623" y1="31.75" x2="5.715" y2="32.065" width="0" layer="19" extent="1-1"/>
+<wire x1="5.715" y1="32.065" x2="10.623" y2="31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="INA_1" pad="3"/>

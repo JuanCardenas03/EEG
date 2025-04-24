@@ -11009,8 +11009,8 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </classes>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="HIGH_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
-<part name="LOW_PASS_1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
+<part name="HP1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
+<part name="LP1" library="LMV321AUIDBVR" deviceset="LMV321AUIDBVR" device=""/>
 <part name="R1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="230k"/>
 <part name="C2_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="C1_HP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
@@ -11133,11 +11133,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <attribute name="SHEET" x="233.68" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="165.1" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="HIGH_PASS_1" gate="G$1" x="80.01" y="156.21" smashed="yes">
+<instance part="HP1" gate="G$1" x="80.01" y="156.21" smashed="yes">
 <attribute name="NAME" x="84.455" y="160.02" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="83.312" y="147.32" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="LOW_PASS_1" gate="G$1" x="80.01" y="125.73" smashed="yes">
+<instance part="LP1" gate="G$1" x="80.01" y="125.73" smashed="yes">
 <attribute name="NAME" x="84.455" y="129.54" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="83.185" y="116.84" size="1.778" layer="96" align="center-left"/>
 </instance>
@@ -11420,10 +11420,10 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="106.68" y1="156.21" x2="106.68" y2="145.415" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="145.415" x2="78.74" y2="145.415" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="145.415" x2="78.74" y2="151.13" width="0.1524" layer="91"/>
-<pinref part="HIGH_PASS_1" gate="G$1" pin="-IN"/>
+<pinref part="HP1" gate="G$1" pin="-IN"/>
 <wire x1="78.74" y1="151.13" x2="80.01" y2="151.13" width="0.1524" layer="91"/>
 <pinref part="R1_HP1" gate="G$1" pin="1"/>
-<pinref part="HIGH_PASS_1" gate="G$1" pin="OUT"/>
+<pinref part="HP1" gate="G$1" pin="OUT"/>
 <wire x1="105.41" y1="156.21" x2="106.68" y2="156.21" width="0.1524" layer="91"/>
 <junction x="106.68" y="156.21"/>
 <wire x1="106.68" y1="156.21" x2="111.125" y2="156.21" width="0.1524" layer="91"/>
@@ -11437,7 +11437,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="HIGH_PASS_1" gate="G$1" pin="+IN"/>
+<pinref part="HP1" gate="G$1" pin="+IN"/>
 <wire x1="80.01" y1="156.21" x2="78.74" y2="156.21" width="0.1524" layer="91"/>
 <pinref part="C2_HP1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="156.21" x2="78.74" y2="158.75" width="0.1524" layer="91"/>
@@ -11460,11 +11460,11 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 </net>
 <net name="O3" class="0">
 <segment>
-<pinref part="LOW_PASS_1" gate="G$1" pin="OUT"/>
+<pinref part="LP1" gate="G$1" pin="OUT"/>
 <wire x1="105.41" y1="125.73" x2="106.68" y2="125.73" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="125.73" x2="106.68" y2="114.935" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="114.935" x2="78.74" y2="114.935" width="0.1524" layer="91"/>
-<pinref part="LOW_PASS_1" gate="G$1" pin="-IN"/>
+<pinref part="LP1" gate="G$1" pin="-IN"/>
 <wire x1="78.74" y1="114.935" x2="78.74" y2="120.65" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="120.65" x2="80.01" y2="120.65" width="0.1524" layer="91"/>
 <pinref part="C1_LP1" gate="G$1" pin="2"/>
@@ -11495,7 +11495,7 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <segment>
 <pinref part="R2_LP1" gate="G$1" pin="2"/>
 <wire x1="78.74" y1="127" x2="78.74" y2="125.73" width="0.1524" layer="91"/>
-<pinref part="LOW_PASS_1" gate="G$1" pin="+IN"/>
+<pinref part="LP1" gate="G$1" pin="+IN"/>
 <wire x1="78.74" y1="125.73" x2="80.01" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="C2_LP1" gate="G$1" pin="1"/>
 <wire x1="77.47" y1="125.73" x2="78.74" y2="125.73" width="0.1524" layer="91"/>
@@ -11589,12 +11589,12 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <wire x1="122.555" y1="86.36" x2="122.555" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HIGH_PASS_1" gate="G$1" pin="V+"/>
+<pinref part="HP1" gate="G$1" pin="V+"/>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="105.41" y1="153.67" x2="108.585" y2="153.67" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LOW_PASS_1" gate="G$1" pin="V+"/>
+<pinref part="LP1" gate="G$1" pin="V+"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <wire x1="105.41" y1="123.19" x2="107.95" y2="123.19" width="0.1524" layer="91"/>
 </segment>
@@ -11726,13 +11726,13 @@ Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframep
 <junction x="111.76" y="18.415"/>
 </segment>
 <segment>
-<pinref part="HIGH_PASS_1" gate="G$1" pin="V-"/>
+<pinref part="HP1" gate="G$1" pin="V-"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="80.01" y1="153.67" x2="74.93" y2="153.67" width="0.1524" layer="91"/>
 <wire x1="74.93" y1="153.67" x2="74.93" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="LOW_PASS_1" gate="G$1" pin="V-"/>
+<pinref part="LP1" gate="G$1" pin="V-"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="80.01" y1="123.19" x2="76.835" y2="123.19" width="0.1524" layer="91"/>
 <wire x1="76.835" y1="123.19" x2="76.835" y2="120.015" width="0.1524" layer="91"/>
