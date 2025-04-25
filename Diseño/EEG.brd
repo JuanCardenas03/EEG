@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
@@ -2132,12 +2132,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="28.575" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="31.115" y="50.8" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="R3E" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1.5K" x="6.35" y="52.07" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.89" y="50.165" size="1.27" layer="25" rot="R90"/>
-<attribute name="POPULARITY" value="86" x="6.35" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="6.35" y="52.07" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="3.81" y="52.705" size="1.27" layer="27" rot="R270"/>
-</element>
 <element name="LED_REP" library="led" library_urn="urn:adsk.eagle:library:259" package="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2" value="" x="17.145" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.685" y="41.275" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="52" x="23.495" y="32.385" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2175,6 +2169,18 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D" x="33.655" y="9.525" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33.655" y="6.569" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="33.655" y="7.204" size="1.27" layer="27" align="center"/>
+</element>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22" x="22.225" y="39.37" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.955" y="38.735" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="86" x="22.225" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="22.225" y="39.37" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="24.765" y="38.735" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22" x="36.195" y="59.69" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.925" y="59.055" size="1.27" layer="25" rot="R90"/>
+<attribute name="POPULARITY" value="86" x="36.195" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="36.195" y="59.69" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="38.735" y="59.055" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -2341,9 +2347,7 @@ design rules under a new name.</description>
 <contactref element="R4E" pad="2"/>
 <contactref element="HP1" pad="5"/>
 <contactref element="LP1" pad="5"/>
-<contactref element="R3E" pad="1"/>
 <contactref element="IC3" pad="3"/>
-<wire x1="7.935" y1="53.02" x2="6.35" y2="53.02" width="0.1524" layer="1"/>
 <wire x1="10.615" y1="55.7" x2="7.935" y2="53.02" width="0.1524" layer="1"/>
 <wire x1="19.685" y1="51.12" x2="24.13" y2="51.12" width="0.1524" layer="1"/>
 <wire x1="7.62" y1="29.038" x2="6.985" y2="29.673" width="0.1524" layer="1"/>
@@ -2383,7 +2387,6 @@ design rules under a new name.</description>
 <via x="24.13" y="48.26" extent="1-16" drill="0.35"/>
 <wire x1="24.13" y1="48.26" x2="24.13" y2="51.12" width="0.1524" layer="1"/>
 <wire x1="10.615" y1="57.29" x2="10.615" y2="55.7" width="0.1524" layer="1"/>
-<wire x1="1.905" y1="53.02" x2="6.35" y2="53.02" width="0.1524" layer="1"/>
 <via x="3.81" y="49.53" extent="1-16" drill="0.35"/>
 <wire x1="3.81" y1="49.53" x2="19.685" y2="49.53" width="0.1524" layer="16"/>
 <via x="19.685" y="49.53" extent="1-16" drill="0.35"/>
@@ -2391,6 +2394,7 @@ design rules under a new name.</description>
 <wire x1="3.175" y1="53.02" x2="3.81" y2="52.385" width="0.1524" layer="1"/>
 <wire x1="3.81" y1="52.385" x2="3.81" y2="49.53" width="0.1524" layer="1"/>
 <wire x1="19.685" y1="51.12" x2="19.685" y2="49.53" width="0.1524" layer="1"/>
+<wire x1="3.81" y1="49.53" x2="7.935" y2="53.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="IC1" pad="2"/>
@@ -2635,7 +2639,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="USB_2">
 <contactref element="J1" pad="2"/>
-<contactref element="ESP32-S3" pad="13"/>
 <wire x1="42.2375" y1="6.97" x2="42.2225" y2="6.985" width="0.1524" layer="1"/>
 <wire x1="42.2225" y1="6.985" x2="40.64" y2="6.985" width="0.1524" layer="1"/>
 <wire x1="40.64" y1="6.985" x2="40.005" y2="7.62" width="0.1524" layer="1"/>
@@ -2657,7 +2660,6 @@ design rules under a new name.</description>
 <wire x1="38.735" y1="11.43" x2="36.83" y2="13.335" width="0.1524" layer="1"/>
 <wire x1="30.48" y1="15.875" x2="30.48" y2="26.035" width="0.1524" layer="1"/>
 <wire x1="23.495" y1="34.925" x2="23.495" y2="49.53" width="0.1524" layer="16"/>
-<wire x1="24.585" y1="58.24" x2="24.585" y2="57.29" width="0.1524" layer="1"/>
 <wire x1="29.21" y1="56.515" x2="29.21" y2="54.61" width="0.1524" layer="1"/>
 <wire x1="29.21" y1="54.61" x2="28.575" y2="53.975" width="0.1524" layer="1"/>
 <wire x1="29.21" y1="56.515" x2="27.3486" y2="58.3764" width="0.1524" layer="1"/>
@@ -2665,28 +2667,11 @@ design rules under a new name.</description>
 <wire x1="28.575" y1="53.975" x2="26.035" y2="53.975" width="0.1524" layer="1"/>
 <wire x1="24.7214" y1="58.3764" x2="24.585" y2="58.24" width="0.1524" layer="1"/>
 <wire x1="27.3486" y1="58.3764" x2="24.7214" y2="58.3764" width="0.1524" layer="1"/>
+<contactref element="R3" pad="1"/>
+<wire x1="23.495" y1="34.925" x2="22.225" y2="38.42" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_3">
 <contactref element="J1" pad="3"/>
-<contactref element="ESP32-S3" pad="14"/>
-<contactref element="R3E" pad="2"/>
-<via x="10.795" y="54.61" extent="1-16" drill="0.35"/>
-<wire x1="6.35" y1="51.12" x2="7.9452" y2="52.7152" width="0.1524" layer="1"/>
-<wire x1="7.9452" y1="52.7152" x2="8.06125625" y2="52.7152" width="0.1524" layer="1"/>
-<wire x1="8.06125625" y1="52.7152" x2="9.95605625" y2="54.61" width="0.1524" layer="1"/>
-<wire x1="9.95605625" y1="54.61" x2="10.795" y2="54.61" width="0.1524" layer="1"/>
-<via x="22.225" y="55.88" extent="1-16" drill="0.35"/>
-<wire x1="12.0932" y1="56.13135" x2="12.44865" y2="56.4868" width="0.1524" layer="16"/>
-<wire x1="12.44865" y1="56.4868" x2="12.95135" y2="56.4868" width="0.1524" layer="16"/>
-<wire x1="12.0932" y1="55.9082" x2="12.0932" y2="56.13135" width="0.1524" layer="16"/>
-<wire x1="13.55815" y1="55.88" x2="22.225" y2="55.88" width="0.1524" layer="16"/>
-<wire x1="10.795" y1="54.61" x2="12.0932" y2="55.9082" width="0.1524" layer="16"/>
-<wire x1="12.95135" y1="56.4868" x2="13.55815" y2="55.88" width="0.1524" layer="16"/>
-<wire x1="26.035" y1="57.11" x2="25.855" y2="57.29" width="0.1524" layer="1"/>
-<wire x1="25.855" y1="57.29" x2="25.855" y2="56.335" width="0.1524" layer="1"/>
-<wire x1="25.855" y1="56.335" x2="25.4" y2="55.88" width="0.1524" layer="1"/>
-<wire x1="25.4" y1="55.88" x2="22.225" y2="55.88" width="0.1524" layer="1"/>
-<wire x1="25.855" y1="57.29" x2="27.9" y2="55.245" width="0.1524" layer="1"/>
 <wire x1="27.9" y1="55.245" x2="28.575" y2="55.245" width="0.1524" layer="1"/>
 <via x="28.575" y="55.245" extent="1-16" drill="0.35"/>
 <wire x1="28.575" y1="55.245" x2="44.45" y2="55.245" width="0.1524" layer="16"/>
@@ -2696,6 +2681,8 @@ design rules under a new name.</description>
 <wire x1="45.72" y1="7.62" x2="42.2375" y2="7.62" width="0.1524" layer="1"/>
 <wire x1="44.45" y1="55.245" x2="48.7428" y2="50.9522" width="0.1524" layer="16"/>
 <wire x1="48.7428" y1="50.9522" x2="48.7428" y2="8.7378" width="0.1524" layer="16"/>
+<contactref element="R4" pad="1"/>
+<wire x1="27.9" y1="55.245" x2="36.195" y2="58.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RX">
 <contactref element="ESP32-S3" pad="36"/>
@@ -2802,6 +2789,16 @@ design rules under a new name.</description>
 <wire x1="8.255" y1="44.67" x2="12.7" y2="44.67" width="0.1524" layer="1"/>
 <wire x1="10.795" y1="53.02" x2="6.985" y2="49.21" width="0.1524" layer="1"/>
 <wire x1="6.985" y1="49.21" x2="6.985" y2="44.67" width="0.1524" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="ESP32-S3" pad="14"/>
+<contactref element="R4" pad="2"/>
+<wire x1="25.855" y1="57.29" x2="36.195" y2="60.64" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$18">
+<contactref element="ESP32-S3" pad="13"/>
+<contactref element="R3" pad="2"/>
+<wire x1="22.225" y1="40.32" x2="24.585" y2="57.29" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
