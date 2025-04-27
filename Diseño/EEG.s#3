@@ -12065,7 +12065,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="30.48" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="50.8" y="15.24" size="1.778" layer="95"/>
+<label x="53.34" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
