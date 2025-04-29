@@ -67,6 +67,8 @@
 <text x="43.815" y="64.135" size="1.778" layer="25">T1</text>
 <text x="35.56" y="64.135" size="1.778" layer="25">T2</text>
 <text x="39.37" y="73.66" size="1.778" layer="25">T3</text>
+<text x="8.255" y="76.835" size="1.778" layer="25">TX</text>
+<text x="16.51" y="76.835" size="1.778" layer="25">RX</text>
 </plain>
 <libraries>
 <library name="LMV321AUIDBVR">
@@ -2507,13 +2509,13 @@ design rules under a new name.</description>
 <contactref element="R2E" pad="1"/>
 <contactref element="J3" pad="2"/>
 <contactref element="J1" pad="4"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.254">
 <vertex x="0" y="0"/>
 <vertex x="0" y="15.24"/>
 <vertex x="49.53" y="15.24"/>
 <vertex x="49.53" y="0"/>
 </polygon>
-<polygon width="0.1524" layer="1" orphans="yes">
+<polygon width="0.1524" layer="1" isolate="0.254" orphans="yes">
 <vertex x="0" y="15.875"/>
 <vertex x="49.53" y="15.875"/>
 <vertex x="49.53" y="38.735"/>
@@ -2521,7 +2523,7 @@ design rules under a new name.</description>
 <vertex x="24.765" y="41.91"/>
 <vertex x="0" y="41.91"/>
 </polygon>
-<polygon width="0.3048" layer="1" orphans="yes">
+<polygon width="0.3048" layer="1" isolate="0.254" orphans="yes" rank="2">
 <vertex x="0" y="42.545"/>
 <vertex x="25.4" y="42.545"/>
 <vertex x="25.4" y="39.37"/>
@@ -2535,13 +2537,13 @@ design rules under a new name.</description>
 <vertex x="8.255" y="56.515"/>
 <vertex x="0" y="56.515"/>
 </polygon>
-<polygon width="0.3048" layer="16" orphans="yes">
+<polygon width="0.3048" layer="16" isolate="0.254" orphans="yes">
 <vertex x="0" y="0"/>
 <vertex x="49.53" y="0"/>
 <vertex x="49.53" y="58.42"/>
 <vertex x="32.385" y="58.42"/>
-<vertex x="32.385" y="79.375"/>
-<vertex x="0.635" y="79.375"/>
+<vertex x="32.385" y="80.01"/>
+<vertex x="0.635" y="80.01"/>
 <vertex x="0.635" y="75.565"/>
 <vertex x="8.255" y="75.565"/>
 <vertex x="8.255" y="56.515"/>
@@ -2588,6 +2590,8 @@ design rules under a new name.</description>
 <vertex x="49.53" y="58.42"/>
 <vertex x="49.53" y="79.375"/>
 </polygon>
+<wire x1="3.81" y1="29.673" x2="6.35" y2="19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2675" y1="34.6075" x2="3.81" y2="29.673" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED_CARGA" pad="C"/>
@@ -2847,9 +2851,27 @@ design rules under a new name.</description>
 </signal>
 <signal name="RX">
 <contactref element="ESP32-S3" pad="36"/>
+<polygon width="0.1524" layer="1" isolate="0.254" orphans="yes">
+<vertex x="14.76375" y="77.47" curve="-90"/>
+<vertex x="15.39875" y="78.105" curve="-90"/>
+<vertex x="16.03375" y="77.47" curve="-90"/>
+<vertex x="15.39875" y="76.835" curve="-90"/>
+</polygon>
+<wire x1="14.425" y1="74.79" x2="14.425" y2="76.17875" width="0.1524" layer="1"/>
+<wire x1="15.39875" y1="77.1525" x2="15.39875" y2="77.47" width="0.1524" layer="1"/>
+<wire x1="14.425" y1="76.17875" x2="15.39875" y2="77.1525" width="0.1524" layer="1"/>
 </signal>
 <signal name="TX">
 <contactref element="ESP32-S3" pad="37"/>
+<polygon width="0.1524" layer="1" isolate="0.254" orphans="yes">
+<vertex x="12.22375" y="76.835" curve="-90"/>
+<vertex x="11.58875" y="77.47" curve="-90"/>
+<vertex x="12.22375" y="78.105" curve="-90"/>
+<vertex x="12.85875" y="77.47" curve="-90"/>
+</polygon>
+<wire x1="13.155" y1="74.79" x2="13.155" y2="76.0625" width="0.1524" layer="1"/>
+<wire x1="12.22375" y1="76.99375" x2="12.22375" y2="77.47" width="0.1524" layer="1"/>
+<wire x1="13.155" y1="76.0625" x2="12.22375" y2="76.99375" width="0.1524" layer="1"/>
 </signal>
 <signal name="TOUCHP_2">
 <contactref element="ESP32-S3" pad="18"/>
