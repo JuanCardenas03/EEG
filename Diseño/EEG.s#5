@@ -12050,22 +12050,12 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <wire x1="213.995" y1="83.82" x2="209.55" y2="83.82" width="0.1524" layer="91"/>
 <label x="207.16875" y="84.29625" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="20.32" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<label x="38.1" y="15.24" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="USB_3" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="213.995" y1="81.28" x2="209.55" y2="81.28" width="0.1524" layer="91"/>
 <label x="207.3275" y="81.75625" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="53.34" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">

@@ -1947,7 +1947,7 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ESP32-S3-WROOM-1-N16R8" x="29.845" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="356-ESP32S3WRM1N16R8" x="29.845" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-S3-WROOM-1-N16R8?qs=Li%252BoUPsLEnvQc9gW6AMhZg%3D%3D" x="29.845" y="91.44" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.96" y="61.9125" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="NAME" x="13.085" y="66.3575" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="14.855" y="66.04" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="HP1" library="LMV321AUIDBVR" package="SOT95P280X145-5N" value="LMV321AUIDBVR" x="27.6225" y="27.94" smashed="yes" rot="R180">

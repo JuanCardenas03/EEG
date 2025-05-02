@@ -64,11 +64,11 @@
 <wire x1="49.835" y1="0" x2="49.835" y2="80" width="0" layer="20"/>
 <wire x1="49.835" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
-<text x="43.815" y="64.135" size="1.778" layer="25">T1</text>
-<text x="35.56" y="64.135" size="1.778" layer="25">T2</text>
-<text x="39.37" y="73.66" size="1.778" layer="25">T3</text>
-<text x="8.255" y="76.835" size="1.778" layer="25">TX</text>
-<text x="16.51" y="76.835" size="1.778" layer="25">RX</text>
+<text x="43.4975" y="64.135" size="2.54" layer="25">T1</text>
+<text x="34.925" y="64.135" size="2.54" layer="25">T2</text>
+<text x="39.37" y="73.025" size="2.54" layer="25">T3</text>
+<text x="8.255" y="76.835" size="1.27" layer="25">TX</text>
+<text x="17.145" y="76.835" size="1.27" layer="25">RX</text>
 </plain>
 <libraries>
 <library name="LMV321AUIDBVR">

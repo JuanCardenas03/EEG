@@ -11741,8 +11741,12 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <junction x="207.01" y="61.595"/>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="213.36" y1="61.595" x2="207.01" y2="61.595" width="0.1524" layer="91"/>
-<wire x1="213.995" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="76.2" x2="213.36" y2="61.595" width="0.1524" layer="91"/>
+<wire x1="213.995" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<wire x1="213.995" y1="78.74" x2="213.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="78.74" x2="213.36" y2="76.2" width="0.1524" layer="91"/>
+<junction x="213.36" y="76.2"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND_TAB"/>

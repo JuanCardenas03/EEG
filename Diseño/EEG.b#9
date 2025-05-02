@@ -2528,8 +2528,8 @@ design rules under a new name.</description>
 <vertex x="49.53" y="39.37"/>
 <vertex x="49.53" y="58.42"/>
 <vertex x="32.385" y="58.42"/>
-<vertex x="32.385" y="79.375"/>
-<vertex x="0.635" y="79.375"/>
+<vertex x="32.385" y="76.2"/>
+<vertex x="0.635" y="76.2"/>
 <vertex x="0.635" y="75.565"/>
 <vertex x="8.255" y="75.565"/>
 <vertex x="8.255" y="56.515"/>
@@ -2540,8 +2540,8 @@ design rules under a new name.</description>
 <vertex x="49.53" y="0"/>
 <vertex x="49.53" y="58.42"/>
 <vertex x="32.385" y="58.42"/>
-<vertex x="32.385" y="79.375"/>
-<vertex x="0.635" y="79.375"/>
+<vertex x="32.385" y="80.01"/>
+<vertex x="0.635" y="80.01"/>
 <vertex x="0.635" y="75.565"/>
 <vertex x="8.255" y="75.565"/>
 <vertex x="8.255" y="56.515"/>
@@ -2850,19 +2850,25 @@ design rules under a new name.</description>
 <signal name="RX">
 <contactref element="ESP32-S3" pad="36"/>
 <polygon width="0.1524" layer="1" isolate="0.254" orphans="yes" rank="2">
-<vertex x="3.81" y="66.04" curve="-90"/>
-<vertex x="4.445" y="66.675" curve="-90"/>
-<vertex x="5.08" y="66.04" curve="-90"/>
-<vertex x="4.445" y="65.405" curve="-90"/>
+<vertex x="14.12875" y="77.47" curve="-90"/>
+<vertex x="14.76375" y="78.105" curve="-90"/>
+<vertex x="15.39875" y="77.47" curve="-90"/>
+<vertex x="14.76375" y="76.835" curve="-90"/>
 </polygon>
 </signal>
 <signal name="TX">
 <contactref element="ESP32-S3" pad="37"/>
 <polygon width="0.1524" layer="1" isolate="0.254" orphans="yes" rank="2">
-<vertex x="4.445" y="67.945" curve="-90"/>
-<vertex x="3.81" y="68.58" curve="-90"/>
-<vertex x="4.445" y="69.215" curve="-90"/>
-<vertex x="5.08" y="68.58" curve="-90"/>
+<vertex x="12.85875" y="76.835" curve="-90"/>
+<vertex x="12.22375" y="77.47" curve="-90"/>
+<vertex x="12.85875" y="78.105" curve="-90"/>
+<vertex x="13.49375" y="77.47" curve="-90"/>
+</polygon>
+<polygon width="0.1524" layer="1" isolate="0.254" orphans="yes" rank="2">
+<vertex x="12.85875" y="76.835" curve="-90"/>
+<vertex x="12.22375" y="77.47" curve="-90"/>
+<vertex x="12.85875" y="78.105" curve="-90"/>
+<vertex x="13.49375" y="77.47" curve="-90"/>
 </polygon>
 </signal>
 <signal name="TOUCHP_2">
