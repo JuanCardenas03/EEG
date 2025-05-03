@@ -2681,46 +2681,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 </packages>
 </library>
-<library name="SJ3-35083A-TR">
-<description>&lt;3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SJ335083ATR">
-<description>&lt;b&gt;SJ3-35083A-TR-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.61" diameter="2.415" shape="square"/>
-<pad name="2" x="9.3" y="0" drill="2.15" diameter="3.225"/>
-<pad name="5" x="1.9" y="5.1" drill="1.79" diameter="2.685"/>
-<hole x="1.1" y="2.55" drill="1.8"/>
-<hole x="8.1" y="2.55" drill="1.8"/>
-<text x="3.6" y="2.415" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="3.6" y="2.415" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.4" y1="5.65" x2="12.1" y2="5.65" width="0.1" layer="51"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="12.1" y1="-0.55" x2="-2.4" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="-0.55" x2="-2.4" y2="5.65" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="7.442" x2="13.1" y2="7.442" width="0.1" layer="51"/>
-<wire x1="13.1" y1="7.442" x2="13.1" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="13.1" y1="-2.612" x2="-5.9" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.612" x2="-5.9" y2="7.442" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.1" layer="51"/>
-<wire x1="4.1" y1="5.65" x2="12.1" y2="5.65" width="0.2" layer="21"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="2.6" y1="-0.55" x2="6.6" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="0" y1="5.65" x2="-2.4" y2="5.65" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.65" x2="-2.4" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.2" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-2" width="0.1" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-1.9" width="0.1" layer="21" curve="180"/>
-<wire x1="0" y1="-1.9" x2="0" y2="-1.9" width="0.1" layer="21"/>
-<wire x1="0" y1="-1.9" x2="0" y2="-2" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-</library>
 <library name="1769 (1)">
 <description>&lt;Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -2782,6 +2742,43 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="0.275" y1="-1.45" x2="-0.275" y2="-1.45" width="0.2" layer="21"/>
 <wire x1="-0.275" y1="-1.45" x2="-0.275" y2="1.45" width="0.2" layer="21"/>
 <wire x1="-1.875" y1="1.5" x2="-0.625" y2="1.5" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SJ-3523-SMT-TR">
+<description>&lt;3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SJ3523SMTTR">
+<description>&lt;b&gt;SJ-3523-SMT-TR-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="2.4" y="-3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="11.8" y="-3.8" dx="2.8" dy="2.6" layer="1"/>
+<smd name="3" x="4.4" y="3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<hole x="3.5" y="0" drill="1.7"/>
+<hole x="10.5" y="0" drill="1.7"/>
+<text x="7.3" y="-0.4" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="7.3" y="-0.4" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="2.95" x2="14.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="14.5" y1="2.95" x2="14.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="14.5" y1="-3.05" x2="-2.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3.05" x2="-2.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="6.1" x2="18.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="18.1" y1="6.1" x2="18.1" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="18.1" y1="-6.9" x2="-3.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6.9" x2="-3.5" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.3" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.9" y1="2.95" x2="-2.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.95" x2="-2.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.05" x2="0.9" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="5.9" y1="2.95" x2="14.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="13.5" y1="-3.05" x2="14.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="-3.05" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-3.05" x2="10.1" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
 </package>
 </packages>
 </library>
@@ -3207,16 +3204,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.72" y="6.7875" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="44.8875" y="7.62" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="J2" library="SJ3-35083A-TR" package="SJ335083ATR" value="SJ3-35083A-TR" x="6.35" y="19.05" smashed="yes">
-<attribute name="DESCRIPTION" value="3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="5.3mm" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Same Sky" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SJ3-35083A-TR" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="179-SJ3-35083A-TR" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Same-Sky/SJ3-35083A-TR?qs=IKkN%2F947nfAXbylC140wLg%3D%3D" x="6.35" y="19.05" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.22" y="21.465" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="9.95" y="21.465" size="1.27" layer="27" align="center"/>
-</element>
 <element name="C3E" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF" x="28.575" y="52.07" smashed="yes" rot="R90">
 <attribute name="NAME" x="31.115" y="50.165" size="1.27" layer="25" rot="R90"/>
 <attribute name="POPULARITY" value="88" x="28.575" y="52.07" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3282,6 +3269,16 @@ design rules under a new name.</description>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF2033AIDDCR?qs=7z%252BmIopC6%2FKHHOBVNaL7UQ%3D%3D" x="13.335" y="10.795" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.62" y="10.795" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="13.335" y="10.795" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="J2" library="SJ-3523-SMT-TR" package="SJ3523SMTTR" value="SJ-3523-SMT-TR" x="3.81" y="20.32" smashed="yes">
+<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="5.2mm" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Same Sky" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ-3523-SMT-TR" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-SJ-3523-SMT-TR" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" x="3.81" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="11.11" y="19.92" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="11.11" y="19.92" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -3443,32 +3440,31 @@ design rules under a new name.</description>
 <via x="40.005" y="27.305" extent="1-16" drill="0.35"/>
 <wire x1="40.005" y1="27.305" x2="39.69" y2="26.99" width="0.3048" layer="1"/>
 <wire x1="39.69" y1="26.99" x2="38.1" y2="26.99" width="0.3048" layer="1"/>
-<wire x1="8.9408" y1="15.0368" x2="8.9408" y2="12.5984" width="0.4064" layer="1"/>
-<wire x1="8.9408" y1="15.0368" x2="8.128" y2="15.8496" width="0.4064" layer="1"/>
-<wire x1="8.128" y1="15.8496" x2="5.2832" y2="15.8496" width="0.4064" layer="1"/>
-<wire x1="5.2832" y1="15.8496" x2="4.4704" y2="16.6624" width="0.4064" layer="1"/>
-<wire x1="4.4704" y1="16.6624" x2="4.4704" y2="19.05" width="0.4064" layer="1"/>
-<wire x1="4.4704" y1="19.05" x2="4.4704" y2="27.2288" width="0.4064" layer="1"/>
-<wire x1="4.4704" y1="27.2288" x2="5.08" y2="27.8384" width="0.4064" layer="1"/>
-<wire x1="4.4704" y1="27.2288" x2="2.6162" y2="27.2288" width="0.3048" layer="1"/>
-<wire x1="2.6162" y1="27.2288" x2="1.27" y2="28.575" width="0.3048" layer="1"/>
+<wire x1="2.6162" y1="27.2288" x2="4.4704" y2="27.2288" width="0.3048" layer="1"/>
+<wire x1="1.27" y1="28.575" x2="2.6162" y2="27.2288" width="0.3048" layer="1"/>
 <wire x1="1.27" y1="28.575" x2="1.27" y2="40.005" width="0.3048" layer="1"/>
 <wire x1="12.620625" y1="34.528125" x2="13.49375" y2="33.655" width="0.3048" layer="1"/>
 <wire x1="13.49375" y1="33.655" x2="14.265" y2="33.655" width="0.3048" layer="1"/>
 <wire x1="14.265" y1="33.655" x2="14.2675" y2="33.6575" width="0.3048" layer="1"/>
 <wire x1="10.715625" y1="34.528125" x2="12.620625" y2="34.528125" width="0.3048" layer="1"/>
-<contactref element="J2" pad="1"/>
-<wire x1="5.08" y1="27.8384" x2="5.08" y2="29.673" width="0.4064" layer="1"/>
-<wire x1="6.35" y1="19.05" x2="4.4704" y2="19.05" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="31.75" x2="13.335" y2="32.385" width="0.3048" layer="1"/>
 <wire x1="13.335" y1="32.385" x2="13.335" y2="33.49625" width="0.3048" layer="1"/>
 <wire x1="13.335" y1="33.49625" x2="13.49375" y2="33.655" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="31.75" x2="13.97" y2="31.75" width="0.3048" layer="1"/>
 <contactref element="PS1" pad="1"/>
-<wire x1="13.65" y1="9.845" x2="14.585" y2="9.845" width="0.4064" layer="1"/>
-<wire x1="8.9408" y1="12.5984" x2="10.7442" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="10.7442" y1="10.795" x2="12.7" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="12.7" y1="10.795" x2="13.65" y2="9.845" width="0.4064" layer="1"/>
+<contactref element="J2" pad="1"/>
+<wire x1="4.4704" y1="27.2288" x2="5.08" y2="27.8384" width="0.3048" layer="1"/>
+<wire x1="5.08" y1="27.8384" x2="5.08" y2="29.673" width="0.3048" layer="1"/>
+<wire x1="2.6162" y1="27.2288" x2="3.175" y2="26.67" width="0.3048" layer="1"/>
+<wire x1="3.175" y1="26.67" x2="3.175" y2="19.655" width="0.3048" layer="1"/>
+<wire x1="3.175" y1="19.655" x2="6.21" y2="16.62" width="0.3048" layer="1"/>
+<wire x1="6.21" y1="16.62" x2="7.3576" y2="16.62" width="0.3048" layer="1"/>
+<wire x1="8.89" y1="15.0876" x2="8.89" y2="12.065" width="0.3048" layer="1"/>
+<wire x1="8.89" y1="12.065" x2="10.16" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="13.65" y1="9.845" x2="14.585" y2="9.845" width="0.3048" layer="1"/>
+<wire x1="7.3576" y1="16.62" x2="8.89" y2="15.0876" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="10.795" x2="12.7" y2="10.795" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="10.795" x2="13.65" y2="9.845" width="0.3048" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="AMP_1" pad="5"/>
@@ -3927,30 +3923,31 @@ design rules under a new name.</description>
 </signal>
 <signal name="CS1">
 <contactref element="INA_1" pad="1"/>
-<contactref element="J2" pad="2"/>
 <wire x1="7.62" y1="35.097" x2="9.0355" y2="35.097" width="0.3048" layer="1"/>
 <wire x1="9.0355" y1="35.097" x2="9.04875" y2="35.08375" width="0.3048" layer="1"/>
 <via x="9.04875" y="35.08375" extent="1-16" drill="0.35"/>
 <wire x1="9.04875" y1="35.08375" x2="9.04875" y2="27.94" width="0.3048" layer="16"/>
 <via x="9.04875" y="27.94" extent="1-16" drill="0.35"/>
 <wire x1="9.04875" y1="27.94" x2="9.04875" y2="26.9875" width="0.3048" layer="1"/>
-<wire x1="9.04875" y1="26.9875" x2="11.27125" y2="24.765" width="0.3048" layer="1"/>
-<wire x1="11.27125" y1="24.765" x2="17.145" y2="24.765" width="0.3048" layer="1"/>
-<wire x1="17.145" y1="24.765" x2="18.415" y2="23.495" width="0.3048" layer="1"/>
-<wire x1="18.415" y1="23.495" x2="18.415" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="18.415" y1="19.685" x2="17.78" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="17.78" y1="19.05" x2="15.65" y2="19.05" width="0.3048" layer="1"/>
+<contactref element="J2" pad="2"/>
+<wire x1="15.61" y1="16.88" x2="15.61" y2="16.52" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="17.78" x2="15.61" y2="16.88" width="0.3048" layer="1"/>
+<wire x1="11.90625" y1="24.13" x2="15.875" y2="24.13" width="0.3048" layer="1"/>
+<wire x1="15.875" y1="24.13" x2="16.51" y2="23.495" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="23.495" x2="16.51" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="9.04875" y1="26.9875" x2="11.90625" y2="24.13" width="0.3048" layer="1"/>
 </signal>
 <signal name="CS2">
 <contactref element="INA_1" pad="4"/>
-<contactref element="J2" pad="5"/>
-<wire x1="2.54" y1="34.925" x2="2.2225" y2="34.6075" width="0.3048" layer="1"/>
+<wire x1="2.712" y1="35.097" x2="2.2225" y2="34.6075" width="0.3048" layer="1"/>
 <wire x1="2.2225" y1="34.6075" x2="2.2225" y2="28.8925" width="0.3048" layer="1"/>
 <via x="2.2225" y="28.8925" extent="1-16" drill="0.35"/>
-<wire x1="2.2225" y1="28.8925" x2="6.965" y2="24.15" width="0.3048" layer="16"/>
-<wire x1="6.965" y1="24.15" x2="8.25" y2="24.15" width="0.3048" layer="16"/>
-<wire x1="2.54" y1="34.925" x2="2.712" y2="35.097" width="0.3048" layer="1"/>
+<wire x1="2.2225" y1="28.8925" x2="5.695" y2="25.42" width="0.3048" layer="16"/>
 <wire x1="2.712" y1="35.097" x2="3.81" y2="35.097" width="0.3048" layer="1"/>
+<contactref element="J2" pad="3"/>
+<via x="5.695" y="25.42" extent="1-16" drill="0.35"/>
+<wire x1="5.695" y1="25.42" x2="6.81" y2="25.42" width="0.3048" layer="1"/>
+<wire x1="6.81" y1="25.42" x2="8.21" y2="24.02" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$13">
 <contactref element="ESP32-S3" pad="27"/>
