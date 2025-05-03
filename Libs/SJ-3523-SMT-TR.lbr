@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--/19846284/1653465/2.50/3/2/Connector/-->
+<!--/12878433/1635975/2.50/3/2/Connector/-->
 <!DOCTYPE curve SYSTEM "eagle.dtd">
 <eagle version="7.7.0">
 <drawing>
@@ -57,46 +57,43 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
-<description>&lt;3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging&lt;/b&gt;&lt;p&gt;
+<description>&lt;3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SJ335083ATR">
-<description>&lt;b&gt;SJ3-35083A-TR-1&lt;/b&gt;&lt;br&gt;
+<package name="SJ3523SMTTR">
+<description>&lt;b&gt;SJ-3523-SMT-TR-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0.000" y="0.000" drill="1.61" diameter="2.415" shape="square"/>
-<pad name="2" x="9.300" y="0.000" drill="2.15" diameter="3.225"/>
-<pad name="5" x="1.900" y="5.100" drill="1.79" diameter="2.685"/>
-<hole x="1.100" y="2.550" drill="1.8"/>
-<hole x="8.100" y="2.550" drill="1.8"/>
-<text x="3.600" y="2.415" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
-<text x="3.600" y="2.415" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
-<wire x1="-2.4" y1="5.65" x2="12.1" y2="5.65" width="0.1" layer="51"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="12.1" y1="-0.55" x2="-2.4" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="-0.55" x2="-2.4" y2="5.65" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="7.442" x2="13.1" y2="7.442" width="0.1" layer="51"/>
-<wire x1="13.1" y1="7.442" x2="13.1" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="13.1" y1="-2.612" x2="-5.9" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.612" x2="-5.9" y2="7.442" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.1" layer="51"/>
-<wire x1="4.1" y1="5.65" x2="12.1" y2="5.65" width="0.2" layer="21"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="2.6" y1="-0.55" x2="6.6" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="0" y1="5.65" x2="-2.4" y2="5.65" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.65" x2="-2.4" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.2" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-2" width="0.1" layer="21"/>
-<wire x1="0.000" y1="-2.000" x2="0.000" y2="-1.900" width="0.1" layer="21" curve="180.0"/>
-<wire x1="0" y1="-1.9" x2="0" y2="-1.9" width="0.1" layer="21"/>
-<wire x1="0.000" y1="-1.900" x2="0.000" y2="-2.000" width="0.1" layer="21" curve="180.0"/>
+<smd name="1" x="2.400" y="-3.700" dx="2.800" dy="2.200" layer="1" rot="R90"/>
+<smd name="2" x="11.800" y="-3.800" dx="2.800" dy="2.600" layer="1" rot="R0"/>
+<smd name="3" x="4.400" y="3.700" dx="2.800" dy="2.200" layer="1" rot="R90"/>
+<hole x="3.500" y="0.000" drill="1.7"/>
+<hole x="10.500" y="0.000" drill="1.7"/>
+<text x="7.300" y="-0.400" align="center" size="1.27" layer="25" rot="R0" >&gt;NAME</text>
+<text x="7.300" y="-0.400" align="center" size="1.27" layer="27" rot="R0" >&gt;VALUE</text>
+<wire x1="-2.5" y1="2.95" x2="14.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="14.5" y1="2.95" x2="14.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="14.5" y1="-3.05" x2="-2.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3.05" x2="-2.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="6.1" x2="18.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="18.1" y1="6.1" x2="18.1" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="18.1" y1="-6.9" x2="-3.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6.9" x2="-3.5" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.100" y1="-5.800" x2="2.300" y2="-5.800" width="0.2" layer="21" curve="180.0"/>
+<wire x1="2.3" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.300" y1="-5.800" x2="2.100" y2="-5.800" width="0.2" layer="21" curve="180.0"/>
+<wire x1="2.9" y1="2.95" x2="-2.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.95" x2="-2.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.05" x2="0.9" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="5.9" y1="2.95" x2="14.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="13.5" y1="-3.05" x2="14.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="-3.05" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-3.05" x2="10.1" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="SJ3-35083A-TR">
+<symbol name="SJ-3523-SMT-TR">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
@@ -109,27 +106,27 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SJ3-35083A-TR" prefix="J">
-<description>&lt;b&gt;3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframepdf/sj3-3508x.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="SJ-3523-SMT-TR" prefix="J">
+<description>&lt;b&gt;3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframepdf/sj-352x-smt.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="SJ3-35083A-TR" x="0" y="0"/>
+<gate name="G$1" symbol="SJ-3523-SMT-TR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SJ335083ATR">
+<device name="" package="SJ3523SMTTR">
 <connects>
 <connect gate="G$1" pin="SLEEVE" pad="1"/>
 <connect gate="G$1" pin="TIP" pad="2"/>
-<connect gate="G$1" pin="RING" pad="5"/>
+<connect gate="G$1" pin="RING" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="Mouser_Part_Number" value="179-SJ3-35083A-TR" constant="no"/>
-<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/Same-Sky/SJ3-35083A-TR?qs=IKkN%2F947nfAXbylC140wLg%3D%3D" constant="no"/>
+<attribute name="Mouser_Part_Number" value="490-SJ-3523-SMT-TR" constant="no"/>
+<attribute name="Mouser_Price-Stock" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" constant="no"/>
 <attribute name="Manufacturer_Name" value="Same Sky" constant="no"/>
-<attribute name="Manufacturer_Part_Number" value="SJ3-35083A-TR" constant="no"/>
-<attribute name="Description" value="3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging" constant="no"/>
-<attribute name="Height" value="5.3mm" constant="no"/>
+<attribute name="Manufacturer_Part_Number" value="SJ-3523-SMT-TR" constant="no"/>
+<attribute name="Description" value="3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector" constant="no"/>
+<attribute name="Height" value="5.2mm" constant="no"/>
 </technology>
 </technologies>
 </device>

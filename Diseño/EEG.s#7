@@ -11441,8 +11441,8 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <instance part="SUPPLY15" gate="GND" x="239.395" y="74.295" smashed="yes">
 <attribute name="VALUE" x="237.49" y="71.12" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="GND" x="8.89" y="137.795" smashed="yes">
-<attribute name="VALUE" x="6.35" y="135.255" size="1.778" layer="96"/>
+<instance part="GND6" gate="GND" x="-19.05" y="137.795" smashed="yes">
+<attribute name="VALUE" x="-21.59" y="135.255" size="1.778" layer="96"/>
 </instance>
 <instance part="C3E" gate="G$1" x="135.89" y="74.295" smashed="yes" rot="R270">
 <attribute name="NAME" x="136.271" y="72.771" size="1.778" layer="95" rot="R270"/>
@@ -11481,8 +11481,8 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <attribute name="NAME" x="34.29" y="124.46" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="34.29" y="121.92" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY18" gate="+5V" x="43.18" y="121.92" smashed="yes">
-<attribute name="VALUE" x="43.815" y="125.095" size="1.778" layer="96"/>
+<instance part="SUPPLY18" gate="+5V" x="-10.16" y="127" smashed="yes">
+<attribute name="VALUE" x="-9.525" y="130.175" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="43.18" y="109.22" smashed="yes">
 <attribute name="VALUE" x="41.275" y="106.045" size="1.778" layer="96"/>
@@ -11853,7 +11853,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 </segment>
 <segment>
 <pinref part="GND6" gate="GND" pin="GND"/>
-<wire x1="8.89" y1="141.605" x2="8.89" y2="140.335" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="141.605" x2="-19.05" y2="140.335" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="SLEEVE"/>
 <wire x1="18.415" y1="141.605" x2="8.89" y2="141.605" width="0.1524" layer="91"/>
 </segment>
@@ -11965,7 +11965,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="+5V" pin="+5V"/>
-<wire x1="43.18" y1="119.38" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="124.46" x2="43.18" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="116.84" x2="38.1" y2="116.84" width="0.1524" layer="91"/>
 </segment>
@@ -12065,7 +12065,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="50.8" y1="30.48" x2="50.8" y2="15.24" width="0.1524" layer="91"/>
-<label x="50.8" y="15.24" size="1.778" layer="95"/>
+<label x="53.34" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -12105,7 +12105,7 @@ Source: &lt;a href="https://cdn-shop.adafruit.com/datasheets/17311.pdf"&gt; Data
 </net>
 <net name="+5V1" class="0">
 <segment>
-<wire x1="74.295" y1="23.495" x2="69.215" y2="23.495" width="0.1524" layer="91"/>
+<wire x1="64.135" y1="23.495" x2="69.215" y2="23.495" width="0.1524" layer="91"/>
 <pinref part="ESP32-S3" gate="G$1" pin="IO14"/>
 </segment>
 </net>
