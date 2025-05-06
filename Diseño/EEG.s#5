@@ -10841,87 +10841,6 @@ Source: &lt;a href="https://gct.co/files/drawings/usb3500.pdf"&gt; Datasheet &lt
 </deviceset>
 </devicesets>
 </library>
-<library name="SJ3-35083A-TR">
-<description>&lt;3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="SJ335083ATR">
-<description>&lt;b&gt;SJ3-35083A-TR-1&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1.61" diameter="2.415" shape="square"/>
-<pad name="2" x="9.3" y="0" drill="2.15" diameter="3.225"/>
-<pad name="5" x="1.9" y="5.1" drill="1.79" diameter="2.685"/>
-<hole x="1.1" y="2.55" drill="1.8"/>
-<hole x="8.1" y="2.55" drill="1.8"/>
-<text x="3.6" y="2.415" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="3.6" y="2.415" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.4" y1="5.65" x2="12.1" y2="5.65" width="0.1" layer="51"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="12.1" y1="-0.55" x2="-2.4" y2="-0.55" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="-0.55" x2="-2.4" y2="5.65" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="7.442" x2="13.1" y2="7.442" width="0.1" layer="51"/>
-<wire x1="13.1" y1="7.442" x2="13.1" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="13.1" y1="-2.612" x2="-5.9" y2="-2.612" width="0.1" layer="51"/>
-<wire x1="-5.9" y1="-2.612" x2="-5.9" y2="7.442" width="0.1" layer="51"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.1" layer="51"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.1" layer="51"/>
-<wire x1="4.1" y1="5.65" x2="12.1" y2="5.65" width="0.2" layer="21"/>
-<wire x1="12.1" y1="5.65" x2="12.1" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="2.6" y1="-0.55" x2="6.6" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="0" y1="5.65" x2="-2.4" y2="5.65" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.65" x2="-2.4" y2="-0.55" width="0.2" layer="21"/>
-<wire x1="-2.4" y1="5.05" x2="-4.9" y2="5.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="5.05" x2="-4.9" y2="0.05" width="0.2" layer="21"/>
-<wire x1="-4.9" y1="0.05" x2="-2.4" y2="0.05" width="0.2" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-2" width="0.1" layer="21"/>
-<wire x1="0" y1="-2" x2="0" y2="-1.9" width="0.1" layer="21" curve="180"/>
-<wire x1="0" y1="-1.9" x2="0" y2="-1.9" width="0.1" layer="21"/>
-<wire x1="0" y1="-1.9" x2="0" y2="-2" width="0.1" layer="21" curve="180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ3-35083A-TR">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="SLEEVE" x="0" y="0" length="middle"/>
-<pin name="TIP" x="0" y="-2.54" length="middle"/>
-<pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJ3-35083A-TR" prefix="J">
-<description>&lt;b&gt;3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframepdf/sj3-3508x.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="SJ3-35083A-TR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ335083ATR">
-<connects>
-<connect gate="G$1" pin="RING" pad="5"/>
-<connect gate="G$1" pin="SLEEVE" pad="1"/>
-<connect gate="G$1" pin="TIP" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="3.5 mm Stereo Jack, Through Hole, 3 Conductors, 0 Internal Switches,  Tape &amp; Reel Packaging" constant="no"/>
-<attribute name="HEIGHT" value="5.3mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Same Sky" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="SJ3-35083A-TR" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="179-SJ3-35083A-TR" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Same-Sky/SJ3-35083A-TR?qs=IKkN%2F947nfAXbylC140wLg%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="1769 (1)">
 <description>&lt;Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
@@ -11076,6 +10995,84 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 </deviceset>
 </devicesets>
 </library>
+<library name="SJ-3523-SMT-TR">
+<description>&lt;3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SJ3523SMTTR">
+<description>&lt;b&gt;SJ-3523-SMT-TR-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="2.4" y="-3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="11.8" y="-3.8" dx="2.8" dy="2.6" layer="1"/>
+<smd name="3" x="4.4" y="3.7" dx="2.8" dy="2.2" layer="1" rot="R90"/>
+<hole x="3.5" y="0" drill="1.7"/>
+<hole x="10.5" y="0" drill="1.7"/>
+<text x="7.3" y="-0.4" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="7.3" y="-0.4" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="2.95" x2="14.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="14.5" y1="2.95" x2="14.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="14.5" y1="-3.05" x2="-2.5" y2="-3.05" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3.05" x2="-2.5" y2="2.95" width="0.2" layer="51"/>
+<wire x1="-3.5" y1="6.1" x2="18.1" y2="6.1" width="0.1" layer="51"/>
+<wire x1="18.1" y1="6.1" x2="18.1" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="18.1" y1="-6.9" x2="-3.5" y2="-6.9" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-6.9" x2="-3.5" y2="6.1" width="0.1" layer="51"/>
+<wire x1="2.1" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.3" y1="-5.8" x2="2.3" y2="-5.8" width="0.2" layer="21"/>
+<wire x1="2.3" y1="-5.8" x2="2.1" y2="-5.8" width="0.2" layer="21" curve="180"/>
+<wire x1="2.9" y1="2.95" x2="-2.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="2.95" x2="-2.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-3.05" x2="0.9" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="5.9" y1="2.95" x2="14.5" y2="2.95" width="0.1" layer="21"/>
+<wire x1="13.5" y1="-3.05" x2="14.5" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="-3.05" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-3.05" x2="10.1" y2="-3.05" width="0.1" layer="21"/>
+<wire x1="14.5" y1="3" x2="14.5" y2="-1.5" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ-3523-SMT-TR">
+<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="26.67" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="26.67" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="SLEEVE" x="0" y="0" length="middle"/>
+<pin name="TIP" x="0" y="-2.54" length="middle"/>
+<pin name="RING" x="30.48" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ-3523-SMT-TR" prefix="J">
+<description>&lt;b&gt;3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.sameskydevices.com/product/resource/supplyframepdf/sj-352x-smt.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ-3523-SMT-TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SJ3523SMTTR">
+<connects>
+<connect gate="G$1" pin="RING" pad="3"/>
+<connect gate="G$1" pin="SLEEVE" pad="1"/>
+<connect gate="G$1" pin="TIP" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="3.5 mm, Stereo, Right Angle, Surface Mount (SMT), 3 Conductors, 0 Internal Switches, Audio Jack Connector" constant="no"/>
+<attribute name="HEIGHT" value="5.2mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Same Sky" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="490-SJ-3523-SMT-TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ-3523-SMT-TR?qs=WyjlAZoYn51zOHzJ3r4ZRA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11147,23 +11144,17 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="J1" library="USB3500-30-A-KIT" deviceset="USB3500-30-A-KIT" device=""/>
-<part name="J2" library="SJ3-35083A-TR" deviceset="SJ3-35083A-TR" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C3E" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1 uF"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
-<part name="LED_REP" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED_CAP" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="GND10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="LED_PRO" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED_RES" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="R2E" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="J3" library="1769 (1)" deviceset="1769" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="22"/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VSS" device=""/>
 <part name="PS1" library="REF2033AIDDCR" deviceset="REF2033AIDDCR" device=""/>
+<part name="J2" library="SJ-3523-SMT-TR" deviceset="SJ-3523-SMT-TR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11429,10 +11420,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <attribute name="NAME" x="224.155" y="90.17" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="215.265" y="72.39" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="18.415" y="141.605" smashed="yes">
-<attribute name="NAME" x="20.32" y="146.05" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="41.91" y="146.05" size="1.778" layer="96" rot="R180" align="center-left"/>
-</instance>
 <instance part="SUPPLY15" gate="GND" x="239.395" y="74.295" smashed="yes">
 <attribute name="VALUE" x="237.49" y="71.12" size="1.778" layer="96"/>
 </instance>
@@ -11445,29 +11432,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 </instance>
 <instance part="SUPPLY17" gate="+5V" x="207.01" y="90.805" smashed="yes">
 <attribute name="VALUE" x="208.915" y="90.805" size="1.778" layer="96"/>
-</instance>
-<instance part="LED_REP" gate="G$1" x="38.1" y="55.245" smashed="yes" rot="MR0">
-<attribute name="NAME" x="41.529" y="49.403" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="32.385" y="50.673" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="LED_CAP" gate="G$1" x="57.785" y="66.675" smashed="yes" rot="MR90">
-<attribute name="NAME" x="47.498" y="69.596" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="53.213" y="72.39" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="GND10" gate="GND" x="38.1" y="34.29" smashed="yes">
-<attribute name="VALUE" x="38.1" y="31.75" size="1.778" layer="96"/>
-</instance>
-<instance part="LED_PRO" gate="G$1" x="59.69" y="59.055" smashed="yes" rot="MR90">
-<attribute name="NAME" x="53.848" y="62.611" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="55.118" y="64.77" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="LED_RES" gate="G$1" x="59.69" y="52.705" smashed="yes" rot="MR90">
-<attribute name="NAME" x="54.483" y="55.626" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="55.118" y="58.42" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="R2E" gate="G$1" x="38.1" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.9664" y="40.64" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="41.402" y="40.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="J3" gate="G$1" x="17.78" y="116.84" smashed="yes">
 <attribute name="NAME" x="34.29" y="124.46" size="1.778" layer="95" align="center-left"/>
@@ -11490,6 +11454,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <instance part="PS1" gate="G$1" x="188.595" y="165.1" smashed="yes">
 <attribute name="NAME" x="194.31" y="170.815" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="194.31" y="168.91" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="J2" gate="G$1" x="19.05" y="141.605" smashed="yes">
+<attribute name="NAME" x="45.72" y="149.225" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="45.72" y="146.685" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -11630,16 +11598,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <wire x1="132.08" y1="167.005" x2="133.985" y2="167.005" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="SLEEVE"/>
-<pinref part="SUPPLY18" gate="G$1" pin="VSS"/>
-<wire x1="18.415" y1="141.605" x2="8.89" y2="141.605" width="0.1524" layer="91"/>
-<wire x1="8.89" y1="141.605" x2="8.89" y2="140.335" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY1" gate="G$1" pin="VSS"/>
 <pinref part="PS1" gate="G$1" pin="VBIAS"/>
 <wire x1="185.42" y1="168.275" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="165.1" x2="188.595" y2="165.1" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="SLEEVE"/>
+<pinref part="SUPPLY18" gate="G$1" pin="VSS"/>
+<wire x1="19.05" y1="141.605" x2="8.89" y2="141.605" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="141.605" x2="8.89" y2="140.335" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11859,11 +11827,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <junction x="140.97" y="68.58"/>
 </segment>
 <segment>
-<pinref part="GND10" gate="GND" pin="GND"/>
-<pinref part="R2E" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="36.83" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="114.3" x2="43.18" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
@@ -12006,10 +11969,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <label x="12.7" y="170.815" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="TIP"/>
-<wire x1="18.415" y1="139.065" x2="16.51" y2="139.065" width="0.1524" layer="91"/>
 <wire x1="16.51" y1="139.065" x2="16.51" y2="135.255" width="0.1524" layer="91"/>
 <label x="16.51" y="133.35" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="TIP"/>
+<wire x1="16.51" y1="139.065" x2="19.05" y2="139.065" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CS2" class="0">
@@ -12020,10 +11983,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <label x="13.335" y="153.035" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="RING"/>
-<wire x1="48.895" y1="141.605" x2="50.8" y2="141.605" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="141.605" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
 <label x="51.435" y="136.525" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="RING"/>
+<wire x1="49.53" y1="141.605" x2="50.8" y2="141.605" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -12098,49 +12061,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <label x="56.35625" y="36.5125" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+5V1" class="0">
-<segment>
-<wire x1="64.135" y1="23.495" x2="69.215" y2="23.495" width="0.1524" layer="91"/>
-<pinref part="ESP32-S3" gate="G$1" pin="IO14"/>
-</segment>
-</net>
-<net name="LED_REP" class="0">
-<segment>
-<pinref part="ESP32-S3" gate="G$1" pin="IO13"/>
-<wire x1="69.215" y1="26.035" x2="63.5" y2="26.035" width="0.1524" layer="91"/>
-<label x="56.515" y="26.035" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="LED_REP" gate="G$1" pin="A"/>
-<wire x1="38.1" y1="57.785" x2="38.1" y2="64.77" width="0.1524" layer="91"/>
-<label x="30.48" y="64.77" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="ESP32-S3" gate="G$1" pin="IO5"/>
-<pinref part="LED_CAP" gate="G$1" pin="A"/>
-<wire x1="60.325" y1="66.675" x2="69.215" y2="66.675" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="ESP32-S3" gate="G$1" pin="IO6"/>
-<wire x1="69.215" y1="64.135" x2="66.04" y2="64.135" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="64.135" x2="66.04" y2="59.055" width="0.1524" layer="91"/>
-<pinref part="LED_PRO" gate="G$1" pin="A"/>
-<wire x1="66.04" y1="59.055" x2="62.23" y2="59.055" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="ESP32-S3" gate="G$1" pin="IO7"/>
-<wire x1="69.215" y1="61.595" x2="67.31" y2="61.595" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="61.595" x2="67.31" y2="52.705" width="0.1524" layer="91"/>
-<pinref part="LED_RES" gate="G$1" pin="A"/>
-<wire x1="67.31" y1="52.705" x2="62.23" y2="52.705" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="RESET" gate="G$1" pin="NO_1"/>
@@ -12153,25 +12073,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ref2033.pdf"&gt; Datasheet 
 <junction x="27.305" y="71.755"/>
 <pinref part="C1E" gate="G$1" pin="2"/>
 <wire x1="27.305" y1="71.755" x2="21.59" y2="71.755" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="LED_CAP" gate="G$1" pin="C"/>
-<wire x1="52.705" y1="66.675" x2="52.705" y2="59.055" width="0.1524" layer="91"/>
-<pinref part="LED_PRO" gate="G$1" pin="C"/>
-<wire x1="52.705" y1="59.055" x2="52.705" y2="52.705" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="59.055" x2="52.705" y2="59.055" width="0.1524" layer="91"/>
-<junction x="52.705" y="59.055"/>
-<pinref part="LED_RES" gate="G$1" pin="C"/>
-<wire x1="54.61" y1="52.705" x2="52.705" y2="52.705" width="0.1524" layer="91"/>
-<pinref part="LED_REP" gate="G$1" pin="C"/>
-<wire x1="38.1" y1="50.165" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="52.705" y1="52.705" x2="52.705" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="52.705" y1="48.26" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
-<junction x="52.705" y="52.705"/>
-<pinref part="R2E" gate="G$1" pin="2"/>
-<junction x="38.1" y="48.26"/>
 </segment>
 </net>
 <net name="N$14" class="0">
