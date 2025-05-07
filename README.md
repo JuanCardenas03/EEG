@@ -45,7 +45,7 @@ Se ha diseñado una **máquina de estados finita (FSM) tipo Moore**, programada 
 
 ## 🤝 Aportaciones
 
-¿Tienes experiencia en procesado de señales cerebrales, diseño de filtros, o análisis con Python?  
+¿Tienes experiencia en procesado de señales cerebrales, diseño de filtros, o análisis?  
 ¡Contribuye con este proyecto abierto! 😄
 
 ---
